@@ -13,7 +13,7 @@ class Projects extends Component {
               <ul className="projects-items">
                 <li className="projects-item">
                   <i className="fa fa-asterisk" aria-hidden="true"></i>
-                  <a href="https://nattasak.github.io/my-resume/">My Resume</a> - react project
+                  <a href="https://github.com/Nattasak/my-resume">My Resume</a> - react project
                 </li>
                 <li className="projects-item">
                   <i className="fa fa-asterisk" aria-hidden="true"></i>

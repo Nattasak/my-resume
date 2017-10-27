@@ -1,17 +1,46 @@
 .header {
+  margin-bottom: 80px;
 
   .section-title {
-    margin-bottom: 18px;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 12px;
+    text-shadow: -1px 0 #c4c4c4, 0 1px #c4c4c4, 1px 0 #c4c4c4, 0 -1px #c4c4c4;
+    color: #000;
+    text-align: center;
+    cursor: default;
+    border-bottom-style: dashed;
+
+    &:hover {
+      color: #fff;
+    }
+
+    .first-name {
+      display: block;
+      margin-bottom: -18px;
+    }
+
+    .last-name {
+    }
+  }
+
+  .main-nav {
+    border-top: 1px dashed #c4c4c4;
+    padding-top: 30px;
   }
 
   .main-nav-items {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-flow: row wrap;
 
     .main-nav-item {
-      display: inline-block;
-      margin-right: 40px;
+      text-align: center; /* horizontal align: center */
+      flex-grow: 1;
+      padding: 15px;
 
       a {
 
