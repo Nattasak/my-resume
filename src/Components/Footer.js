@@ -7,7 +7,9 @@ class Footer extends Component {
       <footer className="footer">
         Footer
         <div className="flex-container">
-          <div className="flex-item"></div>
+          <div className="flex-item">
+            Contact me
+          </div>
           <div className="flex-item"></div>
         </div>
       </footer>

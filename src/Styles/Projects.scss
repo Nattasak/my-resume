@@ -1,19 +1,19 @@
 @import "./Mixins.scss";
 @import "./Shared.scss";
 
-.skills-section {
+.projects-section {
 
   .flex-container {
     .flex-item {
     }
   }
 
-  .skills-items {
+  .projects-items {
     list-style: none;
     margin: 0;
     padding: 0;
 
-    .skills-item {
+    .projects-item {
       i {
         margin-right: 7px;
       }

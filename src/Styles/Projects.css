@@ -4,9 +4,9 @@
     font-size: 22px;
     border-bottom: 1px solid #c4c4c4; }
 
-.skills-section .skills-items {
+.projects-section .projects-items {
   list-style: none;
   margin: 0;
   padding: 0; }
-  .skills-section .skills-items .skills-item i {
+  .projects-section .projects-items .projects-item i {
     margin-right: 7px; }
