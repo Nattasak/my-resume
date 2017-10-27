@@ -1,27 +1,17 @@
 .header {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 
   .section-title {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
     padding-bottom: 30px;
     font-size: 40px;
     letter-spacing: 12px;
-    text-shadow: -1px 0 #c4c4c4, 0 1px #c4c4c4, 1px 0 #c4c4c4, 0 -1px #c4c4c4;
-    color: #000;
+    color: #9e9e9e;
     text-align: center;
-    cursor: default;
     border-bottom-style: dashed;
 
     &:hover {
       color: #fff;
-    }
-
-    .first-name {
-      display: block;
-      margin-bottom: -18px;
-    }
-
-    .last-name {
     }
   }
 
@@ -48,6 +38,17 @@
           border: 0;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .header {
+    .section-title {
+      padding-bottom: 25px;
+      font-size: 35px;
+      letter-spacing: 4px;
+      line-height: 45px;
     }
   }
 }
