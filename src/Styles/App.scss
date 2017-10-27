@@ -1,0 +1,9 @@
+@import "./Mixins.scss";
+@import "./Shared.scss";
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #000;
+}

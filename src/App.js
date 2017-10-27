@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Styles/App.css';
 
 // Components
 import Header from './Components/Header.js'
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        App change AGAIN !!
+        <Skills />
         <Footer />
       </div>
     );
