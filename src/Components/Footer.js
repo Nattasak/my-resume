@@ -5,11 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        Footer
         <div className="flex-container">
-          <div className="flex-item">
-            Contact me
-          </div>
           <div className="flex-item"></div>
         </div>
       </footer>

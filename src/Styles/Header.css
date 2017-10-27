@@ -8,3 +8,5 @@
   .header .main-nav-items .main-nav-item {
     display: inline-block;
     margin-right: 40px; }
+    .header .main-nav-items .main-nav-item a:hover {
+      border: 0; }
