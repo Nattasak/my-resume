@@ -4,9 +4,13 @@ import '../Styles/Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <footer className="footer">
         Footer
-      </div>
+        <div className="flex-container">
+          <div className="flex-item"></div>
+          <div className="flex-item"></div>
+        </div>
+      </footer>
     );
   }
 }

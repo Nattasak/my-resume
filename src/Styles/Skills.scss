@@ -1,6 +1,33 @@
 @import "./Mixins.scss";
 @import "./Shared.scss";
 
-.skills {
-  color: #1aaecc;
+.skills-section {
+  margin-bottom: 45px;
+
+  .section-title {
+    font-size: 22px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 2px;
+  }
+
+  .flex-container {
+
+    .flex-item {
+
+    }
+  }
+
+  .skills-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .skills-item {
+      margin-bottom: 10px;
+
+      i {
+        margin-right: 7px;
+      }
+    }
+  }
 }

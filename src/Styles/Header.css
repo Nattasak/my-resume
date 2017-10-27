@@ -1,10 +1,8 @@
 .header {
-  background-color: #eee;
-  border: 1px solid #000;
-  text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 45px; }
   .header h1 {
-    color: #3b92cc; }
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 2px; }
   .header .main-nav-items {
     list-style: none;
     margin: 0;
@@ -12,8 +10,3 @@
     .header .main-nav-items .main-nav-item {
       display: inline-block;
       margin-right: 40px; }
-      .header .main-nav-items .main-nav-item a {
-        text-decoration: none;
-        color: #000; }
-        .header .main-nav-items .main-nav-item a:hover {
-          text-decoration: underline; }

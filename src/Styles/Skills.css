@@ -1,2 +1,14 @@
-.skills {
-  color: #1aaecc; }
+.skills-section {
+  margin-bottom: 45px; }
+  .skills-section .section-title {
+    font-size: 22px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 2px; }
+  .skills-section .skills-items {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .skills-section .skills-items .skills-item {
+      margin-bottom: 10px; }
+      .skills-section .skills-items .skills-item i {
+        margin-right: 7px; }
