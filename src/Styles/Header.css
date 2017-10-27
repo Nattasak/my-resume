@@ -1,8 +1,5 @@
-.section {
-  margin-bottom: 45px; }
-  .section .section-title {
-    font-size: 22px;
-    border-bottom: 1px solid #c4c4c4; }
+.header .section-title {
+  margin-bottom: 18px; }
 
 .header .main-nav-items {
   list-style: none;

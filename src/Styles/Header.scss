@@ -1,7 +1,8 @@
-@import "./Mixins.scss";
-@import "./Shared.scss";
-
 .header {
+
+  .section-title {
+    margin-bottom: 18px;
+  }
 
   .main-nav-items {
     list-style: none;
