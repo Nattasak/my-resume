@@ -16,15 +16,15 @@ class YoutubeComponent extends Component {
         className="youtube"
         videoId="xxIsmbVZuSI"
         opts={opts}
-        //onReady={this._onReady}
+        onEnd={this._onEnd}
       />
     );
   }
 
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
+  _onEnd(event) {
+    event.target.destroy();
   }
+
 }
 
 export default YoutubeComponent;
