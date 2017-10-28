@@ -34,10 +34,6 @@ class Skills extends Component {
                   <i className="fa fa-check" aria-hidden="true"></i>
                   <span>API</span>
                 </li>
-                <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>MongoDB</span>
-                </li>
               </ul>
             </div>
             <div className="flex-item"></div>
