@@ -16,11 +16,15 @@ class Skills extends Component {
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>CSS</span>
+                  <span>CSS / Sass / Less</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>JavaScript</span>
+                  <span>Responsive</span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-check" aria-hidden="true"></i>
+                  <span>JavaScript ES6</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
@@ -29,6 +33,10 @@ class Skills extends Component {
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
                   <span>Node.js</span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-check" aria-hidden="true"></i>
+                  <span>Git</span>
                 </li>
               </ul>
             </div>
