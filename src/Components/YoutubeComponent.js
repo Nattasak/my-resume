@@ -16,7 +16,7 @@ class YoutubeComponent extends Component {
         className="youtube"
         videoId="xxIsmbVZuSI"
         opts={opts}
-        onReady={this._onReady}
+        //onReady={this._onReady}
       />
     );
   }

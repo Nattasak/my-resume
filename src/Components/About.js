@@ -10,7 +10,8 @@ class About extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <div className="bio">
-                Hi' my name is Nat, I'm 27 years old living in Bangkok, Thailand !
+                Hi' my name is Nat, I'm 27 years old living in Bangkok, Thailand !<br />
+                I love to learn new things. I wanna make the world better.
               </div>
               <ul className="about-items">
                 <li className="about-item">
