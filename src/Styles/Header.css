@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    flex-flow: row nowrap; }
+    flex-flow: row wrap; }
     .header .main-nav-items .main-nav-item {
       text-align: center;
       /* horizontal align: center */

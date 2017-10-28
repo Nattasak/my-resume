@@ -12,6 +12,7 @@ class Header extends Component {
               <li className="main-nav-item"><a href="https://github.com/Nattasak"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></li>
               <li className="main-nav-item"><a href="https://codepen.io/nattasak1/"><i class="fa fa-codepen fa-5x" aria-hidden="true"></i></a></li>
               <li className="main-nav-item"><a href="https://medium.com/@nattasak101"><i class="fa fa-medium fa-5x" aria-hidden="true"></i></a></li>
+              <li className="main-nav-item"><a href="https://notminetykub.wordpress.com/"><i class="fa fa-wordpress fa-5x" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </nav>

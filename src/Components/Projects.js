@@ -13,11 +13,15 @@ class Projects extends Component {
               <ul className="projects-items">
                 <li className="projects-item">
                   <i className="fa fa-asterisk" aria-hidden="true"></i>
-                  <a href="https://github.com/Nattasak/my-resume">My Resume</a> - react project
+                  <a href="https://github.com/Nattasak/my-resume">My Resume</a> - React project
                 </li>
                 <li className="projects-item">
                   <i className="fa fa-asterisk" aria-hidden="true"></i>
-                  <a href="https://github.com/Nattasak/react-button-list">React Button List</a> - react project
+                  <a href="https://github.com/Nattasak/react-button-list">React Button List</a> - React project
+                </li>
+                <li className="projects-item">
+                  <i className="fa fa-asterisk" aria-hidden="true"></i>
+                  <a href="https://notminetykub.wordpress.com/">Not Mine</a> - Wordpress free blog
                 </li>
               </ul>
             </div>
