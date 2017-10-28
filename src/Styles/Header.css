@@ -1,8 +1,20 @@
 .header {
   margin-bottom: 50px; }
   .header .youtube {
-    text-align: center;
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
     margin-top: 13px; }
+    .header .youtube .youtubeComponent {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
   .header .section-title {
     margin: 0 0 5px 0;
     padding-bottom: 13px;
