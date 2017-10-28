@@ -9,7 +9,8 @@
     "npm-run-all": "^4.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-youtube": "^7.5.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -22,7 +23,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "//": "Note",
-  "//": "Github Page = predeploy + deploy",
   "//": "Sass = build-css + watch-css + start-js + start(edit) + build(edit)"
 }
