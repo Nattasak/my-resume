@@ -14,16 +14,21 @@ class YoutubeComponent extends Component {
     return (
       <YouTube
         className="youtubeComponent"
-        videoId="xxIsmbVZuSI"
+        videoId="7LEmer7wwHI"
         opts={opts}
-        onEnd={this._onEnd}
+        onReady={this._onReady}
+        //onEnd={this._onEnd}
       />
     );
   }
 
-  _onEnd(event) {
-    event.target.destroy();
+  _onReady(event) {
+    event.target.setVolume(35);
   }
+
+  /*_onEnd(event) {
+    event.target.destroy();
+  }*/
 
 }
 
