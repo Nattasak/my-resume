@@ -4,7 +4,7 @@ import React from 'react';
 const person = ( props ) => {
     return (
         <div className="Person">
-            <p>{props.name} {props.lastname}</p>
+            {props.name} {props.lastname}
         </div>
     )
 };
