@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../Styles/Header.css';
-import YoutubeComponent from './YoutubeComponent.js'
-import Person from '../Person/Person.js'
+import YoutubeComponent from './YoutubeComponent.js';
+import Person from '../Person/Person.js';
+import Clock from './Clock.js';
 
 class Header extends Component {
 
@@ -52,6 +53,7 @@ class Header extends Component {
 
     return (
       <header className="header section">
+        <Clock />
         <button className="button-toggle" onClick={this.handleClick}>{this.state.isToggleOn ? 'i luv u <3' : 'i hate u !'}</button>
         <h1 className="section-title">{persons}</h1>
         <nav className="main-nav">

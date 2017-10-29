@@ -1,6 +1,9 @@
 .header {
   position: relative;
   margin-bottom: 50px; }
+  .header .clock {
+    margin-right: 15px;
+    font-size: 17px; }
   .header .youtube {
     float: none;
     clear: both;
