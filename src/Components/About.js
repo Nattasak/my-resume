@@ -48,7 +48,7 @@ class About extends Component {
                 </li>
                 <li className="about-item">
                   <i className="fa fa-bolt" aria-hidden="true"></i>
-                  <span className="title">Front End</span><span> - .... </span>
+                  <span className="title">React Developer</span><span> - .... </span>
                 </li>
               </ul>
             </div>
