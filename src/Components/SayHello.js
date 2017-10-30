@@ -32,5 +32,5 @@ class SayHello extends React.Component {
     );
   }
 }
-// Hey, what’s up?
+
 export default SayHello;

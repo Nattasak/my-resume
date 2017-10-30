@@ -15,14 +15,6 @@ class Projects extends Component {
                   <i className="fa fa-asterisk" aria-hidden="true"></i>
                   <a href="https://github.com/Nattasak/my-resume">My Resume</a> - React project
                 </li>
-                <li className="projects-item">
-                  <i className="fa fa-asterisk" aria-hidden="true"></i>
-                  <a href="https://github.com/Nattasak/react-button-list">React Button List</a> - React project
-                </li>
-                <li className="projects-item">
-                  <i className="fa fa-asterisk" aria-hidden="true"></i>
-                  <a href="https://notminetykub.wordpress.com/">Not Mine</a> - Wordpress free blog
-                </li>
               </ul>
             </div>
             <div className="flex-item"></div>

@@ -16,8 +16,8 @@ class App extends Component {
         <Header />
         <SayHello />
         <About />
-        <Projects />
         <Skills />
+        <Projects />
         <Footer />
         {/*<ContactForm />*/}
       </div>
