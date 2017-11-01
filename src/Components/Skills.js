@@ -16,11 +16,11 @@ class Skills extends Component {
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>JS | React | RxJS | Redux | MobX</span>
+                  <span>JS | React | RxJS | Redux</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>API | Axios | SuperAgent</span>
+                  <span>API | Fetch | Axios | SuperAgent</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-check" aria-hidden="true"></i>
