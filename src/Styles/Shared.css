@@ -1,6 +1,7 @@
 .section {
-  margin-bottom: 45px; }
+  margin-bottom: 50px; }
   .section .section-title {
     font-size: 22px;
-    border-bottom: 1px solid #c4c4c4;
-    letter-spacing: 2px; }
+    border-top: 1px solid #313131;
+    letter-spacing: 2px;
+    padding-top: 20px; }

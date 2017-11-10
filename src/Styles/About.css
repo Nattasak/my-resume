@@ -1,11 +1,13 @@
 .about-section .flex-container .flex-item .bio {
-  margin-bottom: 20px; }
+  margin-bottom: 33px; }
 
 .about-section .about-items {
   list-style: none;
   margin: 0;
   padding: 0; }
-  .about-section .about-items .about-item i {
-    margin-right: 7px; }
-  .about-section .about-items .about-item .title {
-    color: #8a8a8a; }
+  .about-section .about-items .about-item {
+    margin-bottom: 10px; }
+    .about-section .about-items .about-item i {
+      margin-right: 20px; }
+    .about-section .about-items .about-item .title {
+      color: #8a8a8a; }

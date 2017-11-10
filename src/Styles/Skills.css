@@ -2,5 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0; }
-  .skills-section .skills-items .skills-item i {
-    margin-right: 7px; }
+  .skills-section .skills-items .skills-item {
+    margin-bottom: 15px; }
+    .skills-section .skills-items .skills-item i {
+      margin-right: 22px; }

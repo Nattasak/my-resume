@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import '../Styles/SayHello.css';
 
-class SayHello extends React.Component {
+class SayHello extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      inputValue: ''
-    };
+    this.state = { inputValue: '' };
   }
 
-  updateInputValue(evt) {
-    this.setState({
-      inputValue: evt.target.value
-    });
+  inputValueHandler = (event) =>  {
+    this.setState({ inputValue: event.target.value });
   }
 
   render() {
@@ -21,12 +17,12 @@ class SayHello extends React.Component {
         <div>
           <label>
             { this.state.inputValue ? (
-              <span>Hey, {this.state.inputValue}. what’s up? Nice to meet you.</span>
+              <span>Hi'  {this.state.inputValue}.  Nice to meet you  : )</span>
             ) : (
-              <span>What's your name?</span>
+              <span>Hi'  What's your name ?</span>
             ) }
           </label><br />
-          <input value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} />
+          <input value={this.state.inputValue} onChange={this.inputValueHandler} />
         </div>
       </form>
     );

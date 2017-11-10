@@ -11,24 +11,16 @@ class Skills extends Component {
             <div className="flex-item">
               <ul className="skills-items">
                 <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>HTML | CSS | CSS Modules | Sass | Less</span>
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>HTML  |  CSS  |  Sass  |  Less  |  CSS Modules</span>
                 </li>
                 <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>JS | React | RxJS | Redux</span>
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>JavaScript  |  React  |  Redux</span>
                 </li>
                 <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>API | Fetch | Axios | SuperAgent</span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>Git | Node.js | Express</span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-check" aria-hidden="true"></i>
-                  <span>Next.js</span>
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>Git</span>
                 </li>
               </ul>
             </div>
