@@ -23,7 +23,7 @@ class Projects extends Component {
                 </li>
                 <li className="projects-item">
                   <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
-                  <a href="https://nattasak.github.io/todo-winter/" target="_blank" rel="noopener noreferrer">Todo Winter</a><br />
+                  <a href="https://nattasak.github.io/job-quest-winter-2017/" target="_blank" rel="noopener noreferrer">Todo Winter</a><br />
                   <p>This project is a part of TakeMeTour's Job Quest (Winter 2017 Edition)</p>
                 </li>
               </ul>
