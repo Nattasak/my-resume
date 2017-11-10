@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './Styles/App.css';
-
-// Components
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import About from './Components/About.js';

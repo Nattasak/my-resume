@@ -39,7 +39,7 @@ class About extends Component {
                 </li>
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
-                  <span className="title">JavaScript Engineer</span><span>  -  Waiting... (Start date 18 oct 2017)</span>
+                  <span className="title">JavaScript Engineer</span><span>  -  Waiting... (Start learning 18 oct 2017)</span>
                 </li>
               </ul>
             </div>

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../Styles/Header.css';
-//import YoutubeComponent from './YoutubeComponent.js';
-//import Clock from './Clock.js';
 
 class Header extends Component {
   render() {
@@ -18,9 +16,6 @@ class Header extends Component {
             </ul>
           </div>
         </nav>
-        {/*<div className="youtube">
-          <YoutubeComponent />
-        </div>*/}
       </header>
     );
   }
