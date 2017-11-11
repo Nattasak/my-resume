@@ -10,7 +10,8 @@ class About extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <div className="bio">
-                Hi' my name is Nat, I'm 27 years old living in Bangkok, Thailand. I love to learn new things. I wanna make the world better.
+                Hi' my name is Nat, I'm 27 years old living in Bangkok, Thailand.<br />
+                I love to learn new things. I wanna make the world better.
               </div>
               <ul className="about-items">
                 <li className="about-item">
@@ -19,7 +20,7 @@ class About extends Component {
                 </li>
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
-                  <span className="title">Bachelor degree</span><span>  -  Rajamangala University of Technology Rattanakosin (Mechatronics Engineering) (1 yr)</span>
+                  <span className="title">Bachelor degree</span><span>  -  Rajamangala University of Technology (Mechatronics) (1 yr)</span>
                 </li>
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
@@ -27,7 +28,7 @@ class About extends Component {
                 </li>
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
-                  <span className="title">Bachelor degree</span><span>  -  Nakhon Pathom Rajabhat University (Visual Communication Design) (3 yrs)</span>
+                  <span className="title">Bachelor degree</span><span>  -  Nakhon Pathom Rajabhat University (Design) (3 yrs)</span>
                 </li>
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>

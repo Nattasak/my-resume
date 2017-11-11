@@ -1,5 +1,6 @@
 .about-section .flex-container .flex-item .bio {
-  margin-bottom: 33px; }
+  margin-bottom: 20px;
+  font-size: 17px; }
 
 .about-section .about-items {
   list-style: none;

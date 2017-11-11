@@ -2,6 +2,8 @@
   text-align: left;
   margin-left: -15px;
   margin-top: -6px; }
+  #contact_form label span {
+    font-size: 18px; }
   #contact_form input {
     width: 92px;
     background-color: #121212;

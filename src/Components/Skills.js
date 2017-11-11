@@ -12,7 +12,7 @@ class Skills extends Component {
               <ul className="skills-items">
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span>HTML  |  CSS  |  Sass  |  Less  |  CSS Modules</span>
+                  <span>HTML  |  CSS  |  Sass  |  Less</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
