@@ -14,10 +14,10 @@ class About extends Component {
                 I love to learn new things. I wanna make the world better.
               </div>
               <ul className="about-items">
-                <li className="about-item">
+                {/*<li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
                   <span className="title">Senior High school</span><span>  -  Matthayom Wat Nairong School (Major Science-Math)</span>
-                </li>
+                </li>*/}
                 <li className="about-item">
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
                   <span className="title">Bachelor degree</span><span>  -  Rajamangala University of Technology (Mechatronics) (1 yr)</span>

@@ -5,10 +5,13 @@
 .about-section .about-items {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0 0 0 51px; }
   .about-section .about-items .about-item {
-    margin-bottom: 10px; }
+    position: relative;
+    margin-bottom: 16px; }
     .about-section .about-items .about-item i {
-      margin-right: 20px; }
+      position: absolute;
+      left: -50px;
+      top: -3px; }
     .about-section .about-items .about-item .title {
       color: #8a8a8a; }

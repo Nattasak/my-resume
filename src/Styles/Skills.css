@@ -1,8 +1,11 @@
 .skills-section .skills-items {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0 0 0 51px; }
   .skills-section .skills-items .skills-item {
-    margin-bottom: 15px; }
+    position: relative;
+    margin-bottom: 22px; }
     .skills-section .skills-items .skills-item i {
-      margin-right: 22px; }
+      position: absolute;
+      left: -50px;
+      top: -3px; }
