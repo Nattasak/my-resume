@@ -1,5 +1,1 @@
-# My resume
-test
-
-## Thanks
-- Create-react-app
+https://nattasak.github.io/my-resume/
