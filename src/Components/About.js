@@ -18,10 +18,6 @@ class About extends Component {
                   <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
                   <span className="title">Front End</span><span>  -  BizIdea Digital Marketing (1 yr)</span>
                 </li>
-                {/*<li className="about-item">
-                  <i className="fa fa-eercast fa-2x" aria-hidden="true"></i>
-                  <span className="title">Front End</span><span>  -  Start learning 18 oct 2017</span>
-                </li>*/}
               </ul>
             </div>
           </div>
