@@ -14,7 +14,6 @@ class Header extends Component {
               <li className="main-nav-item"><a href="https://github.com/Nattasak/" target="_blank" rel="noopener noreferrer"><i className="fa fa-github fa-3x" aria-hidden="true"></i> </a></li>
               <li className="main-nav-item"><a href="https://medium.com/@nattasak111/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium fa-3x" aria-hidden="true"></i> </a></li>
               <li className="main-nav-item"><a href="https://codepen.io/nattasak1/" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen fa-3x" aria-hidden="true"></i> </a></li>
-              <li className="main-nav-item"><a href="https://notminetykub.wordpress.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-wordpress fa-3x" aria-hidden="true"></i> </a></li>
             </ul>
           </div>
         </nav>
