@@ -13,8 +13,13 @@ class Projects extends Component {
               <ul className="projects-items">
                 <li className="projects-item">
                   <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
+                  <a href="https://nattasak.github.io/anime-splash/" target="_blank" rel="noopener noreferrer">Anime Splash</a><br />
+                  <p>Angular 5 + Bootstrap + HttpClient</p>
+                </li>
+                <li className="projects-item">
+                  <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
                   <a href="https://nattasak.github.io/bulma-axios/" target="_blank" rel="noopener noreferrer">Bulma Axios</a><br />
-                  <p>React + React Router + Bulma (CSS Framework) + Axios</p>
+                  <p>React 16 + React router + Bulma + Axios</p>
                 </li>
                 <li className="projects-item">
                   <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
@@ -28,7 +33,6 @@ class Projects extends Component {
                 </li>
               </ul>
             </div>
-            <div className="flex-item"></div>
           </div>
 
         </div>
