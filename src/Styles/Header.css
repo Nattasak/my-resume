@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  margin-bottom: 28px; }
+  margin-bottom: 40px; }
   .header .section-title {
     margin: 0 0 5px 0;
     padding: 10px 0 6px;
@@ -38,16 +38,16 @@
   .header .main-nav-items .main-nav-item {
     padding: 6px; }
     .header .main-nav-items .main-nav-item.say-hello {
-      margin-right: 270px;
+      margin-right: 300px;
       margin-bottom: 30px; } }
 
 @media only screen and (max-width: 533px) {
   .header .main-nav-items .main-nav-item.say-hello {
-    margin-right: 220px; } }
+    margin-right: 245px; } }
 
 @media only screen and (max-width: 470px) {
   .header .main-nav-items .main-nav-item.say-hello {
-    margin-right: 160px; } }
+    margin-right: 183px; } }
 
 @media only screen and (max-width: 360px) {
   .header .section-title {
@@ -63,4 +63,4 @@
     .header .main-nav-items .main-nav-item {
       padding: 6px; }
       .header .main-nav-items .main-nav-item.say-hello {
-        margin-right: 50px; } }
+        margin-right: 35px; } }
