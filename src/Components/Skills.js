@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Styles/Skills.css';
 
-class Skills extends Component {
+export default class Skills extends Component {
   render() {
     return (
       <section className="skills-section section">
@@ -16,7 +16,11 @@ class Skills extends Component {
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span>JavaScript  |  React  |  Redux</span>
+                  <span>JavaScript  |  TypeScript  |  RxJS</span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>Angular  |  React  |  Redux</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
@@ -31,5 +35,3 @@ class Skills extends Component {
     );
   }
 }
-
-export default Skills;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Styles/SayHello.css';
 
-class SayHello extends Component {
+export default class SayHello extends Component {
   constructor(props) {
     super(props);
     this.state = { inputValue: '' };
@@ -19,14 +19,12 @@ class SayHello extends Component {
             { this.state.inputValue ? (
               <span>Hi'  {this.state.inputValue}.  Nice to meet you  : )</span>
             ) : (
-              <span>Hi'  What's your name ?</span>
+              <span>What's your name ?</span>
             ) }
           </label><br />
-          <input value={this.state.inputValue} onChange={this.inputValueHandler} />
+          <input value={this.state.inputValue} onChange={this.inputValueHandler} maxLength="15" />
         </div>
       </form>
     );
   }
 }
-
-export default SayHello;
