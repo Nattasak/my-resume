@@ -1,0 +1,18 @@
+.jsplayground-section .jsplayground-items {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 51px; }
+  .jsplayground-section .jsplayground-items .jsplayground-item {
+    position: relative;
+    margin-bottom: 25px; }
+    .jsplayground-section .jsplayground-items .jsplayground-item i {
+      position: absolute;
+      left: -50px;
+      top: -3px; }
+    .jsplayground-section .jsplayground-items .jsplayground-item .separate {
+      color: #575757; }
+
+.not-active {
+  color: #c4c4c4;
+  pointer-events: none;
+  cursor: default; }
