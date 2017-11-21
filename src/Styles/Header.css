@@ -4,11 +4,14 @@
   .header .section-title {
     margin: 0 0 5px 0;
     padding: 10px 0 6px;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 7px;
     color: #d4d4d4;
     text-align: left;
-    border-top: 0; }
+    border-top: 0;
+    font-family: "Caveat", cursive;
+    font-weight: normal;
+    background: none; }
   .header .main-nav {
     margin-top: 10px; }
   .header .main-nav-items {
@@ -26,6 +29,8 @@
         border: 0; }
 
 @media only screen and (max-width: 821px) {
+  .header .main-nav {
+    margin-top: 30px; }
   .header .section-title {
     padding-bottom: 25px;
     font-size: 35px;
@@ -34,20 +39,14 @@
 
 @media only screen and (max-width: 585px) {
   .header .section-title {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 25px; }
   .header .main-nav-items .main-nav-item {
     padding: 6px; }
     .header .main-nav-items .main-nav-item.say-hello {
       margin-right: 300px;
-      margin-bottom: 30px; } }
-
-@media only screen and (max-width: 533px) {
-  .header .main-nav-items .main-nav-item.say-hello {
-    margin-right: 245px; } }
-
-@media only screen and (max-width: 470px) {
-  .header .main-nav-items .main-nav-item.say-hello {
-    margin-right: 183px; } }
+      margin-bottom: 30px;
+      display: none; } }
 
 @media only screen and (max-width: 360px) {
   .header .section-title {
@@ -61,6 +60,4 @@
       font-size: 24px;
       line-height: 34px; }
     .header .main-nav-items .main-nav-item {
-      padding: 6px; }
-      .header .main-nav-items .main-nav-item.say-hello {
-        margin-right: 35px; } }
+      padding: 6px; } }

@@ -5,11 +5,14 @@
   .section-title {
     margin: 0 0 5px 0;
     padding: 10px 0 6px;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 7px;
     color: #d4d4d4;
     text-align: left;
     border-top: 0;
+    font-family: "Caveat", cursive;
+    font-weight: normal;
+    background: none;
   }
 
   .main-nav {
@@ -39,6 +42,9 @@
 
 @media only screen and (max-width: 821px) {
   .header {
+    .main-nav {
+        margin-top: 30px;
+      }
     .section-title {
       padding-bottom: 25px;
       font-size: 35px;
@@ -52,6 +58,7 @@
   .header {
     .section-title {
       text-align: left;
+      margin-bottom: 25px;
     }
 
     .main-nav-items {
@@ -61,30 +68,7 @@
         &.say-hello {
           margin-right: 300px;
           margin-bottom: 30px;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 533px) {
-  .header {
-    .main-nav-items {
-      .main-nav-item {
-        &.say-hello {
-          margin-right: 245px;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  .header {
-    .main-nav-items {
-      .main-nav-item {
-        &.say-hello {
-          margin-right: 183px;
+          display: none;
         }
       }
     }
@@ -112,10 +96,6 @@
     .main-nav-items {
       .main-nav-item {
         padding: 6px;
-
-        &.say-hello {
-          margin-right: 35px;
-        }
       }
     }
   }

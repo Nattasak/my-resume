@@ -1,18 +1,19 @@
-.about-section .flex-container .flex-item .bio {
-  margin-bottom: 27px;
-  font-size: 17px;
-  line-height: 28px; }
-
-.about-section .about-items {
-  list-style: none;
-  margin: 0;
-  padding: 0 0 0 51px; }
-  .about-section .about-items .about-item {
-    position: relative;
-    margin-bottom: 16px; }
-    .about-section .about-items .about-item i {
-      position: absolute;
-      left: -50px;
-      top: -3px; }
-    .about-section .about-items .about-item .title {
-      color: #8a8a8a; }
+.about-section {
+  max-width: 487px; }
+  .about-section .flex-container .flex-item .bio {
+    margin-bottom: 13px;
+    font-size: 17px;
+    line-height: 28px; }
+  .about-section .about-items {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .about-section .about-items .about-item {
+      position: relative;
+      margin-bottom: 16px; }
+      .about-section .about-items .about-item i {
+        position: absolute;
+        left: -50px;
+        top: -3px; }
+      .about-section .about-items .about-item .title {
+        color: #8a8a8a; }
