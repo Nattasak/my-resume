@@ -26,11 +26,6 @@ export default class Projects extends Component {
                   <a href="https://nattasak.github.io/job-quest-winter-2017/" target="_blank" rel="noopener noreferrer">Todo Winter</a><br />
                   <p>This project is a part of TakeMeTour's Job Quest (Winter 2017 Edition)</p>
                 </li>
-                <li className="projects-item">
-                  <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
-                  <a href="https://nattasak.github.io/test-react-move/" target="_blank" rel="noopener noreferrer">KEEP CALM And Shine ON !</a><br />
-                  <p>Funny project uses React Move (Beautiful, data-driven animations)</p>
-                </li>
               </ul>
             </div>
           </div>
