@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <title>Pyramid Builder</title>
+  <style>
+  div { margin-bottom: 20px }
+  #container { margin: 40px 70px }
+  </style>
+</head>
+<body>
+
+<div id="container">
+    <h1>Pyramid Builder</h1>
+    <div id="pyramid">
+        เอาพีระมิดกี่ชั้นดีครับ <input id="pyramidSize">
+        <button type="submit" onClick="pyramidBuild()">Submit</button><br /><br />
+        <div id="pyramidShow"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+const pyramidBuild = () => {
+
+    // Clear div
+    document.getElementById("pyramidShow").innerHTML = "";
+
+    // Get input value
+    let num = document.getElementById("pyramidSize").value;
+
+    // (num !== "")   ไม่ใช่ช่องว่าง
+    // (!isNaN(num))  ต้องเป็นตัวเลข
+    // (num !== "0")  ไม่ได้เท่ากับ 0
+    // (num % 1 === 0)  ต้องเป็นจำนวนเต็ม [เอา 1 หารแล้วไม่มีเศษ]
+
+    // Logic
+    if ( (num !== "") && (!isNaN(num)) && (num !== "0") && (num % 1 === 0) ) {
+
+        for (let i = 1; i <= num; i++) {
+        document.getElementById("pyramidShow").innerHTML += `<div style="text-align:center">${'  *  '.repeat(i)}</div>`;
+        }
+    }
+
+    // Clear input
+    document.getElementById("pyramidSize").value = "";
+}
+</script>
+
+</body>
+</html>

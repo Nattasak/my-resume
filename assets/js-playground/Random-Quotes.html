@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <title>Random Quotes</title>
+  <style>
+  div { margin-bottom: 60px }
+  #container { margin: 40px 70px }
+  #title {
+    width: 370px;
+    background: #1eb3ac;
+    color: #fff;
+    padding: 4px 13px;
+    margin-bottom: 15px;
+  }
+  #time { color: #585858; }
+  #quotes { font-size: 50px }
+  .author { font-size: 30px }
+  </style>
+</head>
+<body>
+
+<div id="container">
+    <div id="title">Random Quotes + Moment.js + Lodash + Pure.css</div>
+    <div id="time"></div>
+    <div id="quotes"></div>
+    <button class="pure-button pure-button-primary" onclick="genQuotes()">Random Quotes</button>
+</div>
+
+<script type="text/javascript">
+
+// TIME
+const timeMoment = moment().format('MMMM Do YYYY, h:mm a');
+document.getElementById("time").innerHTML = timeMoment;
+
+// 1. DATA
+const QUOTES = [
+    {
+        title: "Stay Hungry. Stay Foolish.",
+        author: "Steve Jobs"
+    },
+    {
+        title: "The people who are crazy enough to think they can change the world are the ones who do.",
+        author: "Steve Jobs"
+    },
+    {
+        title: "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+        author: "Charles Darwin"
+    },
+    {
+        title: "The cure to boredom is curiosity. There is no cure for curiosity.",
+        author: "Dorothy Parker"
+    },
+    {
+        title: "วิธีเรียนรู้เรื่องยากๆ นั้นไม่ยาก ก็แค่ทำให้มันเป็นเรื่องง่ายๆ หลายๆ เรื่อง แล้วค่อยนำมาประกอบรวมกัน... เรื่องยากๆ นั้นก็กลับกลายเป็นเรื่องง่ายๆ",
+        author: "Nattasak Lertpoompunya"
+    }
+]
+
+// 2. Reformat Quotes
+let reformattedQuotes = QUOTES.map(quotes => `" ${quotes.title} "<br /> <span class="author">${quotes.author}</span>`);
+
+// 3. Random number
+let randomNumber = _.random(reformattedQuotes.length - 1);
+
+// 4. Write to document
+document.getElementById("quotes").innerHTML = reformattedQuotes[randomNumber];
+
+// 5. Random quotes when clicked
+const genQuotes = () => {
+    //let randomNumber = Math.floor(Math.random() * reformattedQuotes.length); // Pure JS (Random number)
+    let randomNumber = _.random(reformattedQuotes.length - 1); // Lodash (Random number)
+    document.getElementById("quotes").innerHTML = reformattedQuotes[randomNumber];
+}
+
+</script>
+
+</body>
+</html>
