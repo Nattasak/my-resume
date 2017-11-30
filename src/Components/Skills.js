@@ -16,11 +16,11 @@ export default class Skills extends React.Component {
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span>JavaScript  |  TypeScript  |  RxJS</span>
+                  <span>JavaScript ES6  |  TypeScript</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span>Angular  |  React  |  Redux</span>
+                  <span>Angular  |  React  |  CRA  |  Next.js  |  Redux</span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
