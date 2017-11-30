@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import '../Styles/SayHello.css';
+import React from 'react'
+import '../Styles/SayHello.css'
 
-export default class SayHello extends Component {
+export default class SayHello extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { inputValue: '' };
+    super(props)
+    this.state = { inputValue: '' }
   }
 
   inputValueHandler = (event) =>  {
@@ -25,6 +25,6 @@ export default class SayHello extends Component {
           <input value={this.state.inputValue} onChange={this.inputValueHandler} maxLength="15" />
         </div>
       </form>
-    );
+    )
   }
 }

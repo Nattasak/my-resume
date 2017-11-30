@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import '../Styles/Header.css';
-import SayHello from './SayHello.js';
+import React from 'react'
+import '../Styles/Header.css'
+import SayHello from './SayHello.js'
 
-export default class Header extends Component {
+export default class Header extends React.Component {
   render() {
     return (
       <header className="header section">
@@ -17,6 +17,6 @@ export default class Header extends Component {
           </div>
         </nav>
       </header>
-    );
+    )
   }
 }

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import '../Styles/JSPlayground.css';
+import React from 'react'
+import '../Styles/JSPlayground.css'
 
-export default class JSPlayground extends Component {
+export default class JSPlayground extends React.Component {
   render() {
     return (
       <section className="jsplayground-section section">
@@ -33,6 +33,6 @@ export default class JSPlayground extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }

@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import './Styles/App.css';
-import Header from './Components/Header.js';
-import About from './Components/About.js';
-import Projects from './Components/Projects.js';
-import JSPlayground from './Components/JSPlayground.js';
-import Skills from './Components/Skills.js';
+import React from 'react'
+import './Styles/App.css'
 
-class App extends Component {
+import Header from './Components/Header.js'
+import About from './Components/About.js'
+import Projects from './Components/Projects.js'
+import JSPlayground from './Components/JSPlayground.js'
+import Skills from './Components/Skills.js'
+
+export default class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -16,8 +17,6 @@ class App extends Component {
         <JSPlayground />
         <Skills />
       </div>
-    );
+    )
   }
 }
-
-export default App;

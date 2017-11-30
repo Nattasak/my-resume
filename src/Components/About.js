@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import '../Styles/About.css';
+import React from 'react'
+import '../Styles/About.css'
 
-export default class About extends Component {
+export default class About extends React.Component {
   render() {
     return (
       <section className="about-section section">
@@ -21,6 +21,6 @@ export default class About extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
