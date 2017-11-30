@@ -6,6 +6,7 @@ import About from './Components/About.js'
 import Projects from './Components/Projects.js'
 import JSPlayground from './Components/JSPlayground.js'
 import Skills from './Components/Skills.js'
+import Knowledge from './Components/Knowledge.js'
 
 export default class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends React.Component {
         <Projects />
         <JSPlayground />
         <Skills />
+        <Knowledge />
       </div>
     )
   }
