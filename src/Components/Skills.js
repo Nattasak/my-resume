@@ -30,6 +30,14 @@ export default class Skills extends React.Component {
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
                   <span>
+                    <a href="https://en.wikipedia.org/wiki/CSS_framework" target="_blank" rel="noopener noreferrer">CSS Framework</a>
+                    {'   '}
+                    ( Bootstrap{'  /  '}Bulma )
+                  </span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>
                     <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a>
                     <span className="green">  /  </span>
                     <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>
@@ -49,6 +57,22 @@ export default class Skills extends React.Component {
                     <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a>
                     {'   '}
                     ( Angular CLI )
+                  </span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>
+                    <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js</a>
+                    {'   '}
+                    ( Express )
+                  </span>
+                </li>
+                <li className="skills-item">
+                  <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
+                  <span>
+                    <a href="https://en.wikipedia.org/wiki/Document-oriented_database" target="_blank" rel="noopener noreferrer">Document-oriented database</a>
+                    {'   '}
+                    ( MongoDB )
                   </span>
                 </li>
                 <li className="skills-item">
