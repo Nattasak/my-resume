@@ -12,27 +12,52 @@ export default class Skills extends React.Component {
               <ul className="skills-items">
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>HTML</b>{'  /  '}<b>CSS</b></span>
+                  <span>
+                    <a href="" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML</a>
+                    <span className="green">  /  </span>
+                    <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener noreferrer">CSS</a>
+                  </span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>CSS Preprocessor</b>{'   '}( SASS{'  /  '}LESS )</span>
+                  <span>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor" target="_blank" rel="noopener noreferrer">CSS Preprocessor</a>
+                    {'   '}
+                    ( SASS{'  /  '}LESS )
+                  </span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>JavaScript</b>  ES6  /  <b>TypeScript</b></span>
+                  <span>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a>
+                    <span className="green">  /  </span>
+                    <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>
+                  </span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>React</b>{'   '}( CRA{'  /  '}Next.js )</span>
+                  <span>
+                    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
+                    {'   '}
+                    ( CRA{'  /  '}Next.js )
+                  </span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>Angular</b>{'   '}( Angular CLI )</span>
+                  <span>
+                    <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a>
+                    {'   '}
+                    ( Angular CLI )
+                  </span>
                 </li>
                 <li className="skills-item">
                   <i className="fa fa-bug fa-2x" aria-hidden="true"></i>
-                  <span><b>Version Control</b>{'   '}( GIT )</span>
+                  <span>
+                    <a href="https://en.wikipedia.org/wiki/Version_control" target="_blank" rel="noopener noreferrer">Version Control</a>
+                    {'   '}
+                    ( GIT )
+                  </span>
                 </li>
               </ul>
             </div>
