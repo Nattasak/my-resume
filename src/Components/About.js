@@ -10,7 +10,7 @@ export default class About extends React.Component {
             <div className="flex-item">
               <div className="bio">
                 Hi' my name is Nat, I'm 27 years old living in Bangkok, Thailand. 
-                I love to learn new things. I wanna make the world better.
+                I like JavaScript ES6 / Architecture and Algorithm.
               </div>
               <ul className="about-items">
                 <li className="about-item">
