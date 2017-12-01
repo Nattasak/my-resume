@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../Styles/Skills.css'
 
-export default class Knowledge extends React.Component {
+class Knowledge extends Component {
   render() {
     return (
       <section className="skills-section section">
@@ -61,3 +61,5 @@ export default class Knowledge extends React.Component {
     )
   }
 }
+
+export default Knowledge

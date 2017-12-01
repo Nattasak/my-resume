@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../Styles/Projects.css'
 
-export default class Projects extends React.Component {
+class Projects extends Component {
   render() {
     return (
       <section className="projects-section section">
@@ -35,3 +35,5 @@ export default class Projects extends React.Component {
     )
   }
 }
+
+export default Projects
