@@ -4,7 +4,7 @@ import '../Styles/Skills.css'
 const Skill = ({ title, level }) => (
   <li className="skills-item">
     <i className={`fa fa-battery-${level} fa-2x`} aria-hidden="true"></i>
-    <span className='green'>
+    <span className='title'>
       {title}
     </span>
   </li>
