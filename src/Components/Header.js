@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Styles/Header.css'
-import SayHi from './sayHi.js'
+import SayHi from './SayHi.js'
 
 const myName = 'Nattasak Lertpoompunya'
 
