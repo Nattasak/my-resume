@@ -1,6 +1,15 @@
 import React, { Component } from 'react'
 import '../Styles/Skills.css'
 
+const KnowledgeList = ({ title, url='' }) => (
+  <li className="skills-item">
+    <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
+    <span>
+      <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
+    </span>
+  </li>
+)
+
 class Knowledge extends Component {
   render() {
     return (
@@ -10,51 +19,14 @@ class Knowledge extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <ul className="skills-items">
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="" target="_blank" rel="noopener noreferrer">HTTP</a>
-                    {'   '}
-                    ( Request{'  /  '}Response )
-                  </span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="" target="_blank" rel="noopener noreferrer">DOM handling</a>
-                  </span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="" target="_blank" rel="noopener noreferrer">AJAX</a>
-                    <span className="green">  /  </span>
-                    <a href="https://www.youtube.com/watch?v=s7wmiS2mSXY" target="_blank" rel="noopener noreferrer">RESTful API</a>
-                  </span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ" target="_blank" rel="noopener noreferrer">How JavaScript works</a>
-                  </span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="https://www.youtube.com/watch?v=FYXpOjwYzcs" target="_blank" rel="noopener noreferrer">Functional Programming</a>
-                  </span>
-                </li>
-                <li className="skills-item">
-                  <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-                  <span>
-                    <a href="https://github.com/airbnb/javascript" target="_blank" rel="noopener noreferrer">Style Guide</a>
-                    {'   '}
-                    ( Airbnb JavaScript Style Guide )
-                  </span>
-                </li>
+                <KnowledgeList title='HTTP' />
+                <KnowledgeList title='DOM handling' />
+                <KnowledgeList title='AJAX / RESTful API' url='https://www.youtube.com/watch?v=s7wmiS2mSXY' />
+                <KnowledgeList title='How JavaScript works' url='https://www.youtube.com/watch?v=8aGhZQkoFbQ' />
+                <KnowledgeList title='Functional Programming' url='https://www.youtube.com/watch?v=FYXpOjwYzcs' />
+                <KnowledgeList title='JS Style Guide' url='https://github.com/airbnb/javascript' />
               </ul>
             </div>
-            <div className="flex-item"></div>
           </div>
         </div>
       </section>
