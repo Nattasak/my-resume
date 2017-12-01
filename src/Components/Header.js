@@ -1,18 +1,30 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../Styles/Header.css'
-import SayHello from './SayHello.js'
+import SayHi from './sayHi.js'
 
-export default class Header extends React.Component {
+const myName = 'Nattasak Lertpoompunya'
+
+const HeaderIcon = ({ url, icon }) => (
+  <li className="main-nav-item">
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      <i className={`fa fa-${icon} fa-3x`} aria-hidden="true"></i>
+    </a>
+  </li>
+)
+
+class Header extends Component {
   render() {
     return (
       <header className="header section">
-        <h1 className="section-title">Nattasak Lertpoompunya</h1>
+        <h1 className="section-title">{myName}</h1>
         <nav className="main-nav">
           <div className="container">
             <ul className="main-nav-items">
-              <li className="main-nav-item say-hello"><SayHello /></li>
-              <li className="main-nav-item"><a href="https://github.com/Nattasak/" target="_blank" rel="noopener noreferrer"><i className="fa fa-github fa-3x" aria-hidden="true"></i> </a></li>
-              <li className="main-nav-item"><a href="https://medium.com/@nattasak111/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium fa-3x" aria-hidden="true"></i> </a></li>
+              <li className="main-nav-item say-hello">
+                <SayHi />
+              </li>
+              <HeaderIcon url='https://github.com/Nattasak' icon='github' />
+              <HeaderIcon url='https://medium.com/@nattasak111' icon='medium' />
             </ul>
           </div>
         </nav>
@@ -20,3 +32,5 @@ export default class Header extends React.Component {
     )
   }
 }
+
+export default Header
