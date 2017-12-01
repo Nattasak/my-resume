@@ -4,7 +4,7 @@ import '../Styles/JSPlayground.css'
 const Code = ({ title, filename }) => (
   <li className="jsplayground-item">
     <i className="fa fa-code fa-2x" aria-hidden="true"></i>
-    <a href={`https://cdn.rawgit.com/Nattasak/my-resume/gh-pages/assets/js-playground/${filename}`}
+    <a href={`https://rawgit.com/Nattasak/my-resume/master/public/assets/js-playground/${filename}`}
     target="_blank" rel="noopener noreferrer">{title}</a>
   </li>
 )
