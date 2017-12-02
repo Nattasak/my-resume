@@ -39,32 +39,20 @@
 
 @media only screen and (max-width: 821px) {
   .header {
-    .main-nav {
-        margin-top: 30px;
-      }
     .section-title {
-      padding-bottom: 25px;
-      font-size: 35px;
-      letter-spacing: 4px;
-      line-height: 45px;
+      font-size: 60px;
+      line-height: 73px;
     }
   }
 }
 
 @media only screen and (max-width: 585px) {
   .header {
-    .section-title {
-      text-align: left;
-      margin-bottom: 25px;
-    }
-
     .main-nav-items {
       .main-nav-item {
         padding: 6px;
 
         &.say-hello {
-          margin-right: 300px;
-          margin-bottom: 30px;
           display: none;
         }
       }
@@ -72,10 +60,32 @@
   }
 }
 
+@media only screen and (max-width: 495px) {
+  .header {
+    .section-title {
+      font-size: 55px;
+      line-height: 65px;
+    }
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .header {
+    .section-title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .main-nav {
+      display: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .header {
     .section-title {
-      font-size: 28px;
+      font-size: 35px;
       line-height: 37px;
     }
   }
@@ -83,17 +93,9 @@
 
 @media only screen and (max-width: 320px) {
   .header {
-    margin-bottom: 40px;
-
     .section-title {
-      font-size: 24px;
+      font-size: 32px;
       line-height: 34px;
-    }
-
-    .main-nav-items {
-      .main-nav-item {
-        padding: 6px;
-      }
     }
   }
 }
