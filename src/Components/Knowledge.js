@@ -14,7 +14,7 @@ const List = (props) => {
 
   return (
     <li className="skills-item">
-      <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
+      <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
       <span>{link}{author}</span>
     </li>
   )
