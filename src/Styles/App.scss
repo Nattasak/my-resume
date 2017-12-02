@@ -17,7 +17,7 @@ a {
 }
 
 .App {
-  font: normal 17px/30px Helvetica, sans-serif;
+  font: normal 17px/30px Arial, sans-serif; 
   background-color: #000;
   color: #c4c4c4;
 
@@ -25,5 +25,10 @@ a {
     max-width: 700px;
     margin: 0 auto;
     padding: 25px 0;
+
+    & > .theme {
+      margin-bottom: 35px;
+      font-size: 15px;
+    }
   }
 }

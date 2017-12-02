@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 
   .section-title {
     position: relative;
@@ -7,7 +7,7 @@
     margin-bottom: 30px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
     color: #c4c4c4;
     display: inline;
@@ -25,21 +25,37 @@
 /* LIGHT THEME */
 .App {
   &.light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     background-color: #fff;
     color: #000;
 
     a {
-      color: #003abd;
+      background-color: rgba(187, 239, 253, 0.5);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      color: #1a1a1a;
 
       &:hover {
-        color: #001b56;
-        border-color: #001b56;
+        background-color: #bbeffd;
+        border-bottom-color: #1a1a1a;
+        padding-bottom: 0;
       }
     }
 
-    .section .section-title {
-      color: #000;
-      text-shadow: none;
+    .section {
+      .section-title {
+        color: #000;
+        text-shadow: none;
+      }
+    }
+
+    .header .section-title {
+      font-size: 70px;
+    }
+
+    .header .main-nav-items .main-nav-item a {
+      background: 0;
+      border: 0;
     }
 
     .about-section .about-items .about-item .title {
@@ -47,9 +63,9 @@
     }
 
     #contact_form input {
-      background: #fff;
+      background: #f5f5f5;
+      border-color: #e4e4e4;
       color: #000;
-      border-color: #888;
     }
   }
 }

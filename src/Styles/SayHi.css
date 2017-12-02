@@ -5,11 +5,10 @@
   #contact_form label span {
     font-size: 17px; }
   #contact_form input {
-    width: 135px;
+    width: 129px;
     background-color: #121212;
     height: 22px;
-    padding: 2px 10px;
+    padding: 0px 8px;
     border: 1px solid #000;
     color: #c4c4c4;
-    font-size: 16px;
-    margin-top: 6px; }
+    font-size: 16px; }

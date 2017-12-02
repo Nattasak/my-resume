@@ -27,14 +27,16 @@ class App extends Component {
     return (
       <div className={`App ${!this.state.isDark ? 'light' : 'dark'}`}>
         <div className="container">
-          <label>
-            Dark theme:
-            <input
-              name="isDark"
-              type="checkbox"
-              checked={this.state.isDark}
-              onChange={this.handleCheckbox} />
-          </label>
+          <div className="theme">
+            <label>
+              Dark theme:
+              <input
+                name="isDark"
+                type="checkbox"
+                checked={this.state.isDark}
+                onChange={this.handleCheckbox} />
+            </label>
+          </div>
           <Header />
           <About />
           <Projects />
