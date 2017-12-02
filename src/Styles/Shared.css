@@ -34,8 +34,6 @@
   .App.light .section .section-title {
     color: #000;
     text-shadow: none; }
-  .App.light .header .section-title {
-    font-size: 70px; }
   .App.light .header .main-nav-items .main-nav-item a {
     background: 0;
     border: 0; }
