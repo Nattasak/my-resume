@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Styles/App.css'
 
 // Components
@@ -9,7 +9,7 @@ import JSPlayground from './Components/JSPlayground.js'
 import Skills from './Components/Skills.js'
 import Knowledge from './Components/Knowledge.js'
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div className="App">
