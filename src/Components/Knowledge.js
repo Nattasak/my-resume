@@ -6,13 +6,16 @@ const List = (props) => {
     var author = '  -  ' + props.author
   }
 
+  if (props.children) {
+    var link = <a href={props.children} target="_blank" rel="noopener noreferrer">{props.title}</a>
+  } else {
+    var link = props.title
+  }
+
   return (
     <li className="skills-item">
       <i className="fa fa-linode fa-2x" aria-hidden="true"></i>
-      <span>
-        <a href={props.children} target="_blank" rel="noopener noreferrer">{props.title}</a>
-        {author}
-      </span>
+      <span>{link}{author}</span>
     </li>
   )
 }
