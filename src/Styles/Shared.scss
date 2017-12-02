@@ -1,5 +1,5 @@
 .section {
-  //margin-bottom: 60px;
+  margin-bottom: 50px;
 
   .section-title {
     position: relative;
@@ -11,8 +11,6 @@
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
     color: #c4c4c4;
     display: inline;
-    /*padding: 2px 12px;
-    background-color: #0a0a0a;*/
   }
 }
 
@@ -41,6 +39,7 @@
 
     .section .section-title {
       color: #000;
+      text-shadow: none;
     }
 
     .about-section .about-items .about-item .title {
