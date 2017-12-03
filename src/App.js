@@ -25,7 +25,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className={`App ${!this.state.isDark ? 'light' : 'dark'}`}>
+      <div className={ `App ${this.state.isDark ? 'dark' : 'light'}` }>
         <div className="container">
           <div className="theme">
             <label>
