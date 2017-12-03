@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../Styles/Skills.css'
 
 const ListItem = (props) => {
@@ -31,21 +31,19 @@ const KnowledgeList = (props) => {
   )
 }
 
-class Knowledge extends Component {
-  render() {
-    return (
-      <section className="skills-section section">
-        <div className="container">
-          <h3 className="section-title">Essential knowledge</h3>
-          <div className="flex-container">
-            <div className="flex-item">
-              <KnowledgeList data={KNOWLEDGES} />
-            </div>
+const Knowledge = () => {
+  return (
+    <section className="skills-section section">
+      <div className="container">
+        <h3 className="section-title">Essential knowledge</h3>
+        <div className="flex-container">
+          <div className="flex-item">
+            <KnowledgeList data={KNOWLEDGES} />
           </div>
         </div>
-      </section>
-    )
-  }
+      </div>
+    </section>
+  )
 }
 
 const KNOWLEDGES = [
