@@ -14,8 +14,8 @@ class Knowledge extends Component {
                   <li className="skills-item" key={knowledge.id}>
                     <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
                     <span>
-                      { knowledge.url ?
-                        <a href={knowledge.url} target="_blank" rel="noopener noreferrer">{knowledge.title}</a>
+                      { knowledge.url 
+                        ? <a href={knowledge.url} target="_blank" rel="noopener noreferrer">{knowledge.title}</a>
                         : knowledge.title }
                       { knowledge.author ? `${'  -  '}${knowledge.author}` : null }
                     </span>

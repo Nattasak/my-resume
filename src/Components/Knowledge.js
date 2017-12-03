@@ -9,13 +9,13 @@ const ListItem = (props) => {
         { props.url 
           ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
           : props.title }
-        { props.author ? `${'  -  '}${props.author}` : null }
+        { props.author ? ` - ${props.author}` : null }
       </span>
     </li>
   )
 }
 
-const ItemList = (props) => {
+const KnowledgeList = (props) => {
   const data = props.data
   const listItems = data.map(item => 
     <ListItem 
@@ -39,7 +39,7 @@ class Knowledge extends Component {
           <h3 className="section-title">Essential knowledge</h3>
           <div className="flex-container">
             <div className="flex-item">
-              <ItemList data={KNOWLEDGES} />
+              <KnowledgeList data={KNOWLEDGES} />
             </div>
           </div>
         </div>
