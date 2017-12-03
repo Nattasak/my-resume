@@ -4,19 +4,19 @@ import '../Styles/SayHi.css'
 class SayHi extends Component {
   constructor(props) {
     super(props)
-    this.state = { inputVal: '' }
+    this.state = { value: '' }
   }
 
-  inputValHandler = (evt) =>  {
-    this.setState({ inputVal: evt.target.value })
+  handleInputChange = (event) => {
+    this.setState({ value: event.target.value })
   }
 
   render() {
     return (
       <div id="contact_form">
-        { !this.state.inputVal ? `What's your name ?` : `Hi, ${this.state.inputVal}.` }
+        { !this.state.value ? `What's your name ?` : `Hi, ${this.state.value}.` }
         <br />
-        <input onChange={this.inputValHandler} maxLength='15' />
+        <input onChange={this.handleInputChange} maxLength='15' />
       </div>
     )
   }
