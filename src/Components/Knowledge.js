@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
 import '../Styles/Skills.css'
 
-const ItemList = (props) => {
-  const data = props.data
-
-  const listItems = data.map(item => 
-    <li className="skills-item" key={item.id}>
+const ListItem = (props) => {
+  return (
+    <li className="skills-item">
       <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
       <span>
-        { item.url ?
-          <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
-          : item.title }
-        { item.author ? `${'  -  '}${item.author}` : null }
+        { props.url 
+          ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
+          : props.title }
+        { props.author ? `${'  -  '}${props.author}` : null }
       </span>
     </li>
   )
+}
 
+const ItemList = (props) => {
+  const data = props.data
+  const listItems = data.map(item => 
+    <ListItem 
+      key={item.id}
+      url={item.url} 
+      title={item.title}
+      author={item.author} />
+  )
   return (
     <ul className="skills-items">
       {listItems}
