@@ -19,7 +19,7 @@ const ListItem = (props) => {
 
 const ProjectList = (props) => {
   const data = props.data
-  const listItems = data.map(item => 
+  const listItems = data.map((item) => 
     <ListItem 
       key={item.id}
       url={item.url} 
