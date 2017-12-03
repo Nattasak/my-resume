@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/JSPlayground.css'
 
+const title = 'JS Playground'
+
 const CodeList = (props) => {
   let filename = props.title.replace(/\s+/g, '-')
   return (
@@ -16,7 +18,7 @@ const JSPlayground = () => {
   return (
     <section className="jsplayground-section section">
       <div className="container">
-        <h3 className="section-title">JS Playground</h3>
+        <h3 className="section-title">{title}</h3>
         <div className="flex-container">
           <div className="flex-item">
             <ul className="jsplayground-items">

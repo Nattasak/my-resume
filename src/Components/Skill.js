@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/Skill.css'
 
+const title = 'Skills'
+
 const ListItem = (props) => {
   return (
     <li className="skills-item">
@@ -31,7 +33,7 @@ const Skill = () => {
   return (
     <section className="skills-section section">
       <div className="container">
-        <h3 className="section-title">Skills</h3>
+        <h3 className="section-title">{title}</h3>
         <div className="flex-container">
           <div className="flex-item">
             <SkillList data={SKILLS} />

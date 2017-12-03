@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/Project.css'
 
+const title = 'Projects'
+
 const ListItem = (props) => {
   return (
     <li className="projects-item">
@@ -37,7 +39,7 @@ const Project = () => {
   return (
     <section className="projects-section section">
       <div className="container">
-        <h3 className="section-title">Projects</h3>
+        <h3 className="section-title">{title}</h3>
         <div className="flex-container">
           <div className="flex-item">
             <ProjectList data={PROJECTS} />
