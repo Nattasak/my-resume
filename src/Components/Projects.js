@@ -1,14 +1,6 @@
 import React, { Component } from 'react'
 import '../Styles/Projects.css'
 
-const Project = ({ title, ghpage, children }) => (
-  <li className="projects-item">
-    <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
-    <a href={`https://nattasak.github.io/${ghpage}`} target="_blank" rel="noopener noreferrer">{title}</a>
-    <p>{children}</p>
-  </li>
-)
-
 class Projects extends Component {
   render() {
     return (
@@ -18,15 +10,19 @@ class Projects extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <ul className="projects-items">
-              <Project title='Anime Splash' ghpage='anime-splash'>
-                Angular 5 + Bootstrap + HttpClient
-              </Project>
-              <Project title='Bulma Axios' ghpage='bulma-axios'>
-                React 16 + React router + Bulma + Axios
-              </Project>
-              <Project title='Todo Winter' ghpage='job-quest-winter-2017'>
-                This project is a part of TakeMeTour's Job Quest
-              </Project>
+                {PROJECTS.map(project => 
+                  <li className="projects-item" key={project.id}>
+                    <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
+                    <a href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {project.title}
+                    </a>
+                    <p>
+                      {project.description}
+                    </p>
+                  </li>
+                )}
               </ul>
             </div>
           </div>
@@ -35,5 +31,26 @@ class Projects extends Component {
     )
   }
 }
+
+const PROJECTS = [
+  {
+    id: 1,
+    title: 'Anime Splash',
+    description: 'Angular 5 + Bootstrap + HttpClient',
+    url: 'https://nattasak.github.io/anime-splash'
+  },
+  {
+    id: 2,
+    title: 'Bulma Axios',
+    description: 'React 16 + React router + Bulma + Axios',
+    url: 'https://nattasak.github.io/bulma-axios'
+  },
+  {
+    id: 3,
+    title: 'Todo Winter',
+    description: 'This project is a part of TakeMeTour\'s Job Quest',
+    url: 'https://nattasak.github.io/job-quest-winter-2017'
+  }
+]
 
 export default Projects
