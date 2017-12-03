@@ -4,7 +4,7 @@ import './Styles/App.css'
 // Components
 import Header from './Components/Header'
 import About from './Components/About'
-import Projects from './Components/Projects'
+import Project from './Components/Project'
 import JSPlayground from './Components/JSPlayground'
 import Skills from './Components/Skills'
 import Knowledge from './Components/Knowledge'
@@ -39,7 +39,7 @@ class App extends Component {
           </div>
           <Header />
           <About />
-          <Projects />
+          <Project />
           <JSPlayground />
           <Skills />
           <Knowledge />
