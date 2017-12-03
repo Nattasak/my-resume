@@ -2,14 +2,12 @@ import React, { Component } from 'react'
 import '../Styles/JSPlayground.css'
 
 const Code = (props) => {
-  let title = props.title
-  let filename = title.replace(/\s+/g, '-')
-
+  let filename = props.title.replace(/\s+/g, '-')
   return (
     <li className="jsplayground-item">
       <i className="fa fa-code fa-2x" aria-hidden="true"></i>
       <a href={`https://rawgit.com/Nattasak/my-resume/master/public/assets/js-playground/${filename}.html`}
-      target="_blank" rel="noopener noreferrer">{title}</a>
+      target="_blank" rel="noopener noreferrer">{props.title}</a>
     </li>
   )
 }

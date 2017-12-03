@@ -6,7 +6,7 @@ import Header from './Components/Header'
 import About from './Components/About'
 import Project from './Components/Project'
 import JSPlayground from './Components/JSPlayground'
-import Skills from './Components/Skills'
+import Skill from './Components/Skill'
 import Knowledge from './Components/Knowledge'
 
 class App extends Component {
@@ -41,7 +41,7 @@ class App extends Component {
           <About />
           <Project />
           <JSPlayground />
-          <Skills />
+          <Skill />
           <Knowledge />
         </div>
       </div>
