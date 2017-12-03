@@ -18,15 +18,15 @@ class Projects extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <ul className="projects-items">
-              <Project title='Anime Splash' ghpage='anime-splash'>
-                Angular 5 + Bootstrap + HttpClient
-              </Project>
-              <Project title='Bulma Axios' ghpage='bulma-axios'>
-                React 16 + React router + Bulma + Axios
-              </Project>
-              <Project title='Todo Winter' ghpage='job-quest-winter-2017'>
-                This project is a part of TakeMeTour's Job Quest
-              </Project>
+                <Project title='Anime Splash' ghpage='anime-splash'>
+                  Angular 5 + Bootstrap + HttpClient
+                </Project>
+                <Project title='Bulma Axios' ghpage='bulma-axios'>
+                  React 16 + React router + Bulma + Axios
+                </Project>
+                <Project title='Todo Winter' ghpage='job-quest-winter-2017'>
+                  This project is a part of TakeMeTour's Job Quest
+                </Project>
               </ul>
             </div>
           </div>
