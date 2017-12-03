@@ -6,8 +6,10 @@ const List = (props) => {
     var author = '  -  ' + props.author
   }
 
+  var link
+  
   if (props.children) {
-    var link = <a href={props.children} target="_blank" rel="noopener noreferrer">{props.title}</a>
+    link = <a href={props.children} target="_blank" rel="noopener noreferrer">{props.title}</a>
   } else {
     link = props.title
   }

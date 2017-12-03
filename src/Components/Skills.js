@@ -10,6 +10,10 @@ const Skill = ({ title, level }) => (
   </li>
 )
 
+const DATA = {
+  
+}
+
 class Skills extends Component {
   render() {
     return (
