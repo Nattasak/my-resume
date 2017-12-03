@@ -1,21 +1,18 @@
 import React, { Component } from 'react'
 import '../Styles/Skills.css'
 
-const ItemList = (props) => {
-  const data = props.data
-
-  const listItems = data.map(item => 
-    <li className="skills-item" key={item.id}>
+const KnowledgeList = () => {
+  const listItems = KNOWLEDGES.map(knowledge => 
+    <li className="skills-item" key={knowledge.id}>
       <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
       <span>
-        { item.url ?
-          <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
-          : item.title }
-        { item.author ? `${'  -  '}${item.author}` : null }
+        { knowledge.url ?
+          <a href={knowledge.url} target="_blank" rel="noopener noreferrer">{knowledge.title}</a>
+          : knowledge.title }
+        { knowledge.author ? `${'  -  '}${knowledge.author}` : null }
       </span>
     </li>
   )
-
   return (
     <ul className="skills-items">
       {listItems}
@@ -31,7 +28,7 @@ class Knowledge extends Component {
           <h3 className="section-title">Essential knowledge</h3>
           <div className="flex-container">
             <div className="flex-item">
-              <ItemList data={KNOWLEDGES} />
+              <KnowledgeList />
             </div>
           </div>
         </div>
