@@ -1,15 +1,16 @@
 import React from 'react'
 import '../Styles/Skill.css'
+import classNames from 'classnames'
 
 const title = 'Skills'
 
 const ListItem = (props) => {
+  let skillLevel = props.level
+  let className = classNames({ [`fa fa-battery-${skillLevel} fa-2x`]: true })
   return (
     <li className="skills-item">
-      <i className={`fa fa-battery-${props.level} fa-2x`} aria-hidden="true"></i>
-      <span className='title'>
-        {props.title}
-      </span>
+      <i className={className} aria-hidden="true"></i>
+      <span className='title'>{props.title}</span>
     </li>
   )
 }
