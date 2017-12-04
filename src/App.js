@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import './Styles/App.css'
 
 // Components
-import Header from './Components/Header'
-import About from './Components/About'
-import Project from './Components/Project'
-import JSPlayground from './Components/JSPlayground'
-import Skill from './Components/Skill'
-import Knowledge from './Components/Knowledge'
+import Header from './components/Header'
+import About from './components/About'
+import Project from './components/Project'
+import JSPlayground from './components/JSPlayground'
+import Skill from './components/Skill'
+import Knowledge from './components/Knowledge'
 
 class App extends Component {
   constructor(props) {
