@@ -3,19 +3,17 @@ import '../Styles/Skill.css'
 
 import KNOWLEDGE from '../data/knowledge.json';
 
-const ListItem = (props) => {
-  return (
-    <li className="skills-item">
-      <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
-      <span>
-        { props.url 
-          ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
-          : props.title }
-        { props.author ? ` - ${props.author}` : null }
-      </span>
-    </li>
-  )
-}
+const ListItem = (props) => (
+  <li className="skills-item">
+    <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+    <span>
+      { props.url 
+        ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
+        : props.title }
+      { props.author ? ` - ${props.author}` : null }
+    </span>
+  </li>
+)
 
 const List = (props) => {
   const data = props.data
