@@ -6,35 +6,29 @@ const intro = `
   I am interested in JavaScript${'  /  '}React${'  /  '}Architecture and Algorithm.
 `
 
-const ExperienceList = (props) => {
-  return (
-    <li className="about-item">
-      <span className="title">{props.position}{'  -  '}</span>
-      <span>{props.company} ({props.years})</span>
-    </li>
-  )
-}
+const List = (props) => (
+  <li className="about-item">
+    <span className="title">{props.position}{'  -  '}</span>
+    <span>{props.company} ({props.years})</span>
+  </li>
+)
 
-const About = () => {
-  return (
-    <section className="about-section section">
-      <div className="container">
-        <div className="flex-container">
-          <div className="flex-item">
-            <div className="bio">
-              {intro}
-            </div>
-            <ul className="about-items">
-              <ExperienceList
-                position='Front End'
-                company='BizIdea Digital Marketing'
-                years='1 yr' />
-            </ul>
-          </div>
+const About = () => (
+  <section className="about-section section">
+    <div className="container">
+      <div className="flex-container">
+        <div className="flex-item">
+          <div className="bio">{intro}</div>
+          <ul className="about-items">
+            <List
+              position='Front End'
+              company='BizIdea Digital Marketing'
+              years='1 yr' />
+          </ul>
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)
 
 export default About
