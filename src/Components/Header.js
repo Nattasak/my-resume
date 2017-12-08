@@ -18,9 +18,7 @@ const Header = () => (
     <nav className="main-nav">
       <div className="container">
         <ul className="main-nav-items">
-          <li className="main-nav-item say-hello">
-            <SayHi />
-          </li>
+          <li className="main-nav-item say-hello"><SayHi /></li>
           <List url='https://github.com/Nattasak' icon='github' />
           <List url='https://medium.com/@nattasak111' icon='medium' />
         </ul>
