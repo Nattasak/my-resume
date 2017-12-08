@@ -6,7 +6,7 @@ const intro = `
   I am interested in JavaScript${'  /  '}React${'  /  '}Architecture and Algorithm.
 `
 
-const List = (props) => (
+const ListItem = (props) => (
   <li className="about-item">
     <span className="title">{props.position}{'  -  '}</span>
     <span>{props.company} ({props.years})</span>
@@ -20,7 +20,7 @@ const About = () => (
         <div className="flex-item">
           <div className="bio">{intro}</div>
           <ul className="about-items">
-            <List
+            <ListItem
               position='Front End'
               company='BizIdea Digital Marketing'
               years='1 yr' />

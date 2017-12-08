@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/JSPlayground.css'
 
-const List = (props) => {
+const ListItem = (props) => {
   let filename = props.title.replace(/\s+/g, '-')
   return (
     <li className="jsplayground-item">
@@ -19,9 +19,9 @@ const JSPlayground = () => (
       <div className="flex-container">
         <div className="flex-item">
           <ul className="jsplayground-items">
-            <List title='Random Quotes' />
-            <List title='Pyramid Builder' />
-            <List title='Grade Calculator' />
+            <ListItem title='Random Quotes' />
+            <ListItem title='Pyramid Builder' />
+            <ListItem title='Grade Calculator' />
           </ul>
         </div>
       </div>
