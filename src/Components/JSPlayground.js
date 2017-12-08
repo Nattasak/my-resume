@@ -1,9 +1,7 @@
 import React from 'react'
 import '../Styles/JSPlayground.css'
 
-const title = 'JS Playground'
-
-const CodeList = (props) => {
+const List = (props) => {
   let filename = props.title.replace(/\s+/g, '-')
   return (
     <li className="jsplayground-item">
@@ -14,23 +12,21 @@ const CodeList = (props) => {
   )
 }
 
-const JSPlayground = () => {
-  return (
-    <section className="jsplayground-section section">
-      <div className="container">
-        <h3 className="section-title">{title}</h3>
-        <div className="flex-container">
-          <div className="flex-item">
-            <ul className="jsplayground-items">
-              <CodeList title='Random Quotes' />
-              <CodeList title='Pyramid Builder' />
-              <CodeList title='Grade Calculator' />
-            </ul>
-          </div>
+const JSPlayground = () => (
+  <section className="jsplayground-section section">
+    <div className="container">
+      <h3 className="section-title">JS Playground</h3>
+      <div className="flex-container">
+        <div className="flex-item">
+          <ul className="jsplayground-items">
+            <List title='Random Quotes' />
+            <List title='Pyramid Builder' />
+            <List title='Grade Calculator' />
+          </ul>
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)
 
 export default JSPlayground
