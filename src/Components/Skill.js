@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Skill.css'
 import classNames from 'classnames'
 
-const title = 'Skills'
+import SKILL from '../data/skill.json'
 
 const ListItem = (props) => {
   let skillLevel = props.level
@@ -15,7 +15,7 @@ const ListItem = (props) => {
   )
 }
 
-const SkillList = (props) => {
+const List = (props) => {
   const data = props.data
   const listItems = data.map((item) => 
     <ListItem 
@@ -30,31 +30,17 @@ const SkillList = (props) => {
   )
 }
 
-const Skill = () => {
-  return (
-    <section className="skills-section section">
-      <div className="container">
-        <h3 className="section-title">{title}</h3>
-        <div className="flex-container">
-          <div className="flex-item">
-            <SkillList data={SKILLS} />
-          </div>
+const Skill = () => (
+  <section className="skills-section section">
+    <div className="container">
+      <h3 className="section-title">Skills</h3>
+      <div className="flex-container">
+        <div className="flex-item">
+          <List data={SKILL} />
         </div>
       </div>
-    </section>
-  )
-}
-
-const SKILLS = [
-  { id: 1, title: 'HTML / CSS', level: 'full' },
-  { id: 2, title: 'CSS Preprocessor (SASS / LESS)', level: 'full' },
-  { id: 3, title: 'CSS Framework (Bootstrap / Bulma)', level: 'full' },
-  { id: 4, title: 'JavaScript / TypeScript', level: 'half' },
-  { id: 5, title: 'React (CRA / Next.js)', level: 'half' },
-  { id: 6, title: 'Angular (Angular CLI)', level: 'half' },
-  { id: 7, title: 'Node.js (Express)', level: 'quarter' },
-  { id: 8, title: 'Document-oriented database (MongoDB)', level: 'quarter' },
-  { id: 9, title: 'Version Control (GIT)', level: 'full' }
-]
+    </div>
+  </section>
+)
 
 export default Skill

@@ -33,19 +33,17 @@ const List = (props) => {
   )
 }
 
-const Knowledge = () => {
-  return (
-    <section className="skills-section section">
-      <div className="container">
-        <h3 className="section-title">Essential knowledge</h3>
-        <div className="flex-container">
-          <div className="flex-item">
-            <List data={KNOWLEDGE} />
-          </div>
+const Knowledge = () => (
+  <section className="skills-section section">
+    <div className="container">
+      <h3 className="section-title">Essential knowledge</h3>
+      <div className="flex-container">
+        <div className="flex-item">
+          <List data={KNOWLEDGE} />
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)
 
 export default Knowledge
