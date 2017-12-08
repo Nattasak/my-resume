@@ -8,7 +8,6 @@ import Project from './components/Project'
 import JSPlayground from './components/JSPlayground'
 import Skill from './components/Skill'
 import Knowledge from './components/Knowledge'
-import LabState from './components/LabState'
 
 class App extends Component {
   constructor(props) {
@@ -40,7 +39,6 @@ class App extends Component {
           </div>
           <Header />
           <About />
-          {/* <LabState /> */}
           <Project />
           <JSPlayground />
           <Skill />
