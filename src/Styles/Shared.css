@@ -34,12 +34,12 @@
   .App.light .section .section-title {
     color: #000;
     text-shadow: none; }
-  .App.light .header .main-nav-items .main-nav-item a {
+  .App.light .header .list-item a {
     background: 0;
     border: 0; }
-  .App.light .about-section .about-items .about-item .title {
+  .App.light .about .list-item .title {
     color: #000; }
-  .App.light #contact_form input {
+  .App.light .sayhi input {
     background: #f5f5f5;
     border-color: #e4e4e4;
     color: #000; }
