@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import '../Styles/Header.css'
+import '../css/Header.css'
 
-// Components
+// Component
 import SayHi from './SayHi'
 import About from './About'
 

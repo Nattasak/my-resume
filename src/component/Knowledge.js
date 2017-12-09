@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/Knowledge.css'
+import '../css/Knowledge.css'
 
 import KNOWLEDGE from '../data/knowledge.json';
 

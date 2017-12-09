@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/Skill.css'
+import '../css/Skill.css'
 import classNames from 'classnames'
 
 import SKILL from '../data/skill.json'

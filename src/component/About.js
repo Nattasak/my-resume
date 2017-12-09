@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/About.css'
+import '../css/About.css'
 
 const intro = `
   Hi, my name is Nat. I'm 27 years old living in Bangkok, Thailand. 

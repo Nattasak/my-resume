@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/JSPlayground.css'
+import '../css/JSPlayground.css'
 
 const ListItem = (props) => {
   let filename = props.title.replace(/\s+/g, '-')
