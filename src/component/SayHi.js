@@ -16,7 +16,7 @@ class SayHi extends Component {
       <div className="sayhi">
         { !this.state.value ? `What's your name ?` : `Hi, ${this.state.value}.` }
         <br />
-        <input onChange={this.handleInputChange} maxLength='15' />
+        <input autoFocus onChange={this.handleInputChange} maxLength='15' />
       </div>
     )
   }
