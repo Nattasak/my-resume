@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import '../Styles/Header.css'
-import SayHi from './SayHi.js'
+
+// Components
+import SayHi from './SayHi'
+import About from './About'
 
 const myName = 'Nattasak Lertpoompunya'
 
@@ -13,18 +16,21 @@ const ListItem = (props) => (
 )
 
 const Header = () => (
-  <header className="header section">
-    <h1 className="section-title">{myName}</h1>
-    <nav className="main-nav">
-      <div className="container">
-        <ul className="list">
-          <li className="list-item say-hello"><SayHi /></li>
-          <ListItem url='https://github.com/Nattasak' icon='github' />
-          <ListItem url='https://medium.com/@nattasak111' icon='medium' />
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <Fragment>
+    <header className="header section">
+      <h1 className="section-title">{myName}</h1>
+      <nav className="main-nav">
+        <div className="container">
+          <ul className="list">
+            <li className="list-item say-hello"><SayHi /></li>
+            <ListItem url='https://github.com/Nattasak' icon='github' />
+            <ListItem url='https://medium.com/@nattasak111' icon='medium' />
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <About />
+  </Fragment>
 )
 
 export default Header

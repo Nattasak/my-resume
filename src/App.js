@@ -3,7 +3,6 @@ import './Styles/App.css'
 
 // Components
 import Header from './components/Header'
-import About from './components/About'
 import Project from './components/Project'
 import JSPlayground from './components/JSPlayground'
 import Skill from './components/Skill'
@@ -38,7 +37,6 @@ class App extends Component {
             </label>
           </div>
           <Header />
-          <About />
           <Project />
           <JSPlayground />
           <Skill />
