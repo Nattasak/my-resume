@@ -25,6 +25,21 @@
       .header .list .list-item a:hover {
         border: 0; }
 
+.sayhi {
+  text-align: left;
+  margin-left: -15px;
+  margin-top: -6px; }
+  .sayhi label span {
+    font-size: 17px; }
+  .sayhi input {
+    width: 129px;
+    background-color: #121212;
+    height: 22px;
+    padding: 0px 8px;
+    border: 1px solid #000;
+    color: #c4c4c4;
+    font-size: 16px; }
+
 @media only screen and (max-width: 821px) {
   .header .section-title {
     font-size: 60px;
@@ -33,7 +48,7 @@
 @media only screen and (max-width: 585px) {
   .header .list .list-item {
     padding: 6px; }
-    .header .list .list-item.say-hello {
+    .header .list .list-item.say-hi {
       display: none; } }
 
 @media only screen and (max-width: 495px) {

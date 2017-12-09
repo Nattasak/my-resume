@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../css/SayHi.css'
 
 class SayHi extends Component {
   constructor(props) {
