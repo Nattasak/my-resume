@@ -6,7 +6,7 @@ import KNOWLEDGE from '../data/knowledge.json';
 const ListItem = (props) => (
   <li className="list-item">
     { props.category 
-      ? <img src={`img/icon/${props.category}.png`} />
+      ? <img src={`img/icon/${props.category}.png`} alt={props.category} />
       : <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
     }
     <span>
