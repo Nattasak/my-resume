@@ -1,11 +1,14 @@
 import React from 'react'
-import '../Styles/Skill.css'
+import '../Styles/Knowledge.css'
 
 import KNOWLEDGE from '../data/knowledge.json';
 
 const ListItem = (props) => (
-  <li className="skills-item">
-    <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+  <li className="list-item">
+    { props.category 
+      ? <img src={`img/icon/${props.category}.png`} />
+      : <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+    }
     <span>
       { props.url 
         ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
@@ -20,19 +23,20 @@ const List = (props) => {
   const listItems = data.map((item) => 
     <ListItem 
       key={item.id}
+      category={item.category}
       url={item.url} 
       title={item.title}
       author={item.author} />
   )
   return (
-    <ul className="skills-items">
+    <ul className="list">
       {listItems}
     </ul>
   )
 }
 
 const Knowledge = () => (
-  <section className="skills-section section">
+  <section className="knowledge section">
     <div className="container">
       <h3 className="section-title">Essential knowledge</h3>
       <div className="flex-container">

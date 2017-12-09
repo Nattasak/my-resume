@@ -1,0 +1,17 @@
+.knowledge .list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 55px; }
+  .knowledge .list .list-item {
+    position: relative;
+    margin-bottom: 22px; }
+    .knowledge .list .list-item img,
+    .knowledge .list .list-item i {
+      position: absolute; }
+    .knowledge .list .list-item img {
+      width: 40px;
+      left: -56px;
+      top: -5px; }
+    .knowledge .list .list-item i {
+      left: -54px;
+      top: -2px; }

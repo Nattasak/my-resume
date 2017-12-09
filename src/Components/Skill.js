@@ -8,7 +8,7 @@ const ListItem = (props) => {
   let skillLevel = props.level
   let className = classNames({ [`fa fa-battery-${skillLevel} fa-2x`]: true })
   return (
-    <li className="skills-item">
+    <li className="list-item">
       <i className={className} aria-hidden="true"></i>
       <span className='title'>{props.title}</span>
     </li>
@@ -24,14 +24,14 @@ const List = (props) => {
       level={item.level} />
   )
   return (
-    <ul className="skills-items">
+    <ul className="list">
       {listItems}
     </ul>
   )
 }
 
 const Skill = () => (
-  <section className="skills-section section">
+  <section className="skill section">
     <div className="container">
       <h3 className="section-title">Skills</h3>
       <div className="flex-container">

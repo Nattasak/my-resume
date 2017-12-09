@@ -13,7 +13,7 @@ class SayHi extends Component {
 
   render() {
     return (
-      <div id="contact_form">
+      <div className="sayhi">
         { !this.state.value ? `What's your name ?` : `Hi, ${this.state.value}.` }
         <br />
         <input onChange={this.handleInputChange} maxLength='15' />

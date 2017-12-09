@@ -11,18 +11,18 @@
     line-height: 91px; }
   .header .main-nav {
     margin-top: 30px; }
-  .header .main-nav-items {
+  .header .list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-flow: row wrap; }
-    .header .main-nav-items .main-nav-item {
+    .header .list .list-item {
       text-align: center;
       /* horizontal align: center */
       flex-grow: 1;
       padding: 15px; }
-      .header .main-nav-items .main-nav-item a:hover {
+      .header .list .list-item a:hover {
         border: 0; }
 
 @media only screen and (max-width: 821px) {
@@ -31,9 +31,9 @@
     line-height: 73px; } }
 
 @media only screen and (max-width: 585px) {
-  .header .main-nav-items .main-nav-item {
+  .header .list .list-item {
     padding: 6px; }
-    .header .main-nav-items .main-nav-item.say-hello {
+    .header .list .list-item.say-hello {
       display: none; } }
 
 @media only screen and (max-width: 495px) {

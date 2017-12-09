@@ -1,13 +1,13 @@
-.skills-section .skills-items {
+.skill .list {
   list-style: none;
   margin: 0;
   padding: 0 0 0 51px; }
-  .skills-section .skills-items .skills-item {
+  .skill .list .list-item {
     position: relative;
     margin-bottom: 22px; }
-    .skills-section .skills-items .skills-item i {
+    .skill .list .list-item i {
       position: absolute;
       left: -50px;
       top: -2px; }
-    .skills-section .skills-items .skills-item .title {
+    .skill .list .list-item .title {
       margin-left: 10px; }

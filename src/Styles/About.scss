@@ -1,7 +1,8 @@
-.about-section {
+.about {
   max-width: 627px;
 
   .flex-container {
+    
     .flex-item {
       .bio {
         margin-bottom: 13px;
@@ -9,12 +10,12 @@
     }
   }
 
-  .about-items {
+  .list {
     list-style: none;
     margin: 0;
     padding: 0;
 
-    .about-item {
+    .list-item {
       position: relative;
       margin-bottom: 16px;
 
@@ -23,6 +24,7 @@
         left: -50px;
         top: -3px;
       }
+
       .title {
         color: #8a8a8a;
       }

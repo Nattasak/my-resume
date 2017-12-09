@@ -4,7 +4,7 @@ import '../Styles/Project.css'
 import PROJECT from '../data/project.json'
 
 const ListItem = (props) => (
-  <li className="projects-item">
+  <li className="list-item">
     <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
     <a href={props.url}
       target="_blank"
@@ -24,14 +24,14 @@ const List = (props) => {
       description={item.description} />
   )
   return (
-    <ul className="projects-items">
+    <ul className="list">
       {listItems}
     </ul>
   )
 }
 
 const Project = () => (
-  <section className="projects-section section">
+  <section className="project section">
     <div className="container">
       <h3 className="section-title">Projects</h3>
       <div className="flex-container">

@@ -16,14 +16,14 @@
     margin-top: 30px;
   }
 
-  .main-nav-items {
+  .list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
 
-    .main-nav-item {
+    .list-item {
       text-align: center; /* horizontal align: center */
       flex-grow: 1;
       padding: 15px;
@@ -48,8 +48,8 @@
 
 @media only screen and (max-width: 585px) {
   .header {
-    .main-nav-items {
-      .main-nav-item {
+    .list {
+      .list-item {
         padding: 6px;
 
         &.say-hello {

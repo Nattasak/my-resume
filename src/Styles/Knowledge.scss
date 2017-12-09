@@ -1,0 +1,30 @@
+.knowledge {
+
+    .list {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 0 55px;
+  
+      .list-item {
+        position: relative;
+        margin-bottom: 22px;
+
+        img,
+        i {
+          position: absolute;
+        }
+
+        img {
+          width: 40px;
+          left: -56px;
+          top: -5px;
+        }
+  
+        i {
+          left: -54px;
+          top: -2px;
+        }
+      }
+    }
+  }
+  

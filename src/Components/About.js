@@ -7,19 +7,19 @@ const intro = `
 `
 
 const ListItem = (props) => (
-  <li className="about-item">
+  <li className="list-item">
     <span className="title">{props.position}{'  -  '}</span>
     <span>{props.company} ({props.years})</span>
   </li>
 )
 
 const About = () => (
-  <section className="about-section section">
+  <section className="about section">
     <div className="container">
       <div className="flex-container">
         <div className="flex-item">
           <div className="bio">{intro}</div>
-          <ul className="about-items">
+          <ul className="list">
             <ListItem
               position='Front End'
               company='BizIdea Digital Marketing'

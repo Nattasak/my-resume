@@ -5,7 +5,7 @@ import SayHi from './SayHi.js'
 const myName = 'Nattasak Lertpoompunya'
 
 const ListItem = (props) => (
-  <li className="main-nav-item">
+  <li className="list-item">
     <a href={props.url} target="_blank" rel="noopener noreferrer">
       <i className={`fa fa-${props.icon} fa-3x`} aria-hidden="true"></i>
     </a>
@@ -17,8 +17,8 @@ const Header = () => (
     <h1 className="section-title">{myName}</h1>
     <nav className="main-nav">
       <div className="container">
-        <ul className="main-nav-items">
-          <li className="main-nav-item say-hello"><SayHi /></li>
+        <ul className="list">
+          <li className="list-item say-hello"><SayHi /></li>
           <ListItem url='https://github.com/Nattasak' icon='github' />
           <ListItem url='https://medium.com/@nattasak111' icon='medium' />
         </ul>

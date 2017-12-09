@@ -1,10 +1,10 @@
-#contact_form {
+.sayhi {
   text-align: left;
   margin-left: -15px;
   margin-top: -6px; }
-  #contact_form label span {
+  .sayhi label span {
     font-size: 17px; }
-  #contact_form input {
+  .sayhi input {
     width: 129px;
     background-color: #121212;
     height: 22px;
