@@ -3,27 +3,6 @@ import '../css/Project.css'
 
 import PROJECT from '../data/project.json'
 
-/*
-const List = (props) => {
-  const data = props.data
-  const listItems = data.map((item) =>
-    <li className="list-item" key={item.id}>
-      <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
-      <a href={item.url}
-        target="_blank"
-        rel="noopener noreferrer">
-        {item.title}</a>
-      <p>{item.description}</p>
-    </li>
-  )
-  return (
-    <ul className="list">
-      {listItems}
-    </ul>
-  )
-}
-*/
-
 const ListItem = ({ title, url, desc }) => (
   <li className="list-item">
     <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
