@@ -24,9 +24,9 @@ const List = (props) => {
     <ListItem 
       key={item.id}
       category={item.category}
-      url={item.url} 
       title={item.title}
-      author={item.author} />
+      author={item.author}
+      url={item.url} />
   )
   return (
     <ul className="list">
