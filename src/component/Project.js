@@ -24,25 +24,24 @@ const List = (props) => {
 }
 */
 
-const ListItem = ({title, url, description}) => (
+const ListItem = ({ title, url, desc }) => (
   <li className="list-item">
     <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
     <a href={url}
       target="_blank"
       rel="noopener noreferrer">
       {title}</a>
-    <p>{description}</p>
+    <p>{desc}</p>
   </li>
 )
 
-const List = (props) => {
-  const data = props.data
+const List = ({ data }) => {
   const listItems = data.map((item) => 
     <ListItem 
       key={item.id}
       url={item.url} 
       title={item.title}
-      description={item.description} />
+      desc={item.description} />
   )
   return (
     <ul className="list">

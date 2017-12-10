@@ -3,30 +3,29 @@ import '../css/Knowledge.css'
 
 import KNOWLEDGE from '../data/knowledge.json';
 
-const ListItem = (props) => (
+const ListItem = ({ title, author, url, category }) => (
   <li className="list-item">
-    { props.category 
-      ? <img src={`img/icon/${props.category}.png`} alt={props.category} />
+    { category 
+      ? <img src={`img/icon/${category}.png`} alt={category} />
       : <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
     }
     <span>
-      { props.url 
-        ? <a href={props.url} target="_blank" rel="noopener noreferrer">{props.title}</a>
-        : props.title }
-      { props.author ? ` - ${props.author}` : null }
+      { url 
+        ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
+        : title }
+      { author ? ` - ${author}` : null }
     </span>
   </li>
 )
 
-const List = (props) => {
-  const data = props.data
+const List = ({ data }) => {
   const listItems = data.map((item) => 
     <ListItem 
       key={item.id}
-      category={item.category}
+      url={item.url}
       title={item.title}
       author={item.author}
-      url={item.url} />
+      category={item.category} />
   )
   return (
     <ul className="list">
