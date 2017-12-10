@@ -1,22 +1,21 @@
-import React from 'react'
-import '../css/Skill.css'
-import classNames from 'classnames'
-
-import SKILL from '../data/skill.json'
+import classNames from 'classnames';
+import React from 'react';
+import '../css/Skill.css';
+import SKILL from '../data/skill.json';
 
 const ListItem = ({ title, level }) => {
-  let className = classNames({ [`fa fa-battery-${level} fa-2x`]: true })
+  const className = classNames({ [`fa fa-battery-${level} fa-2x`]: true })
   return (
     <li className="list-item">
-      <i className={className} aria-hidden="true"></i>
-      <span className='title'>{title}</span>
+      <i className={className} aria-hidden="true" />
+      <span className="title">{title}</span>
     </li>
   )
 }
 
 const List = ({ data }) => {
-  const listItems = data.map((item) => 
-    <ListItem 
+  const listItems = data.map((item) =>
+    <ListItem
       key={item.id}
       title={item.title}
       level={item.level} />
@@ -25,8 +24,8 @@ const List = ({ data }) => {
     <ul className="list">
       {listItems}
     </ul>
-  )
-}
+  );
+};
 
 const Skill = () => (
   <section className="skill section">
@@ -39,6 +38,6 @@ const Skill = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default Skill
+export default Skill;

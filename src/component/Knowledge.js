@@ -5,12 +5,12 @@ import KNOWLEDGE from '../data/knowledge.json';
 
 const ListItem = ({ title, author, url, category }) => (
   <li className="list-item">
-    { category 
+    { category
       ? <img src={`img/icon/${category}.png`} alt={category} />
       : <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
     }
     <span>
-      { url 
+      { url
         ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
         : title }
       { author ? ` - ${author}` : null }
@@ -19,8 +19,8 @@ const ListItem = ({ title, author, url, category }) => (
 )
 
 const List = ({ data }) => {
-  const listItems = data.map((item) => 
-    <ListItem 
+  const listItems = data.map((item) =>
+    <ListItem
       key={item.id}
       url={item.url}
       title={item.title}
