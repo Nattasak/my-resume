@@ -1,31 +1,29 @@
-import React, { Component, Fragment } from 'react'
-import '../css/Header.css'
+import React, { Component, Fragment } from 'react';
+import '../css/Header.css';
+import About from './About';
 
-// Component
-import About from './About'
+const myName = 'Nattasak Lertpoompunya';
 
-const myName = 'Nattasak Lertpoompunya'
-
-const ListItem = (props) => (
+const ListItem = props => (
   <li className="list-item">
     <a href={props.url} target="_blank" rel="noopener noreferrer">
-      <i className={`fa fa-${props.icon} fa-3x`} aria-hidden="true"></i>
+      <i className={`fa fa-${props.icon} fa-3x`} aria-hidden="true" />
     </a>
   </li>
-)
+);
 
 class Header extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      value: ""
-    }
+      value: ''
+    };
   }
 
   handleInputChange = (event) => {
     this.setState({
       value: event.target.value
-    })
+    });
   }
 
   render() {
@@ -51,8 +49,8 @@ class Header extends Component {
         </header>
         <About name={this.state.value} />
       </Fragment>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

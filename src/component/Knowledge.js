@@ -1,38 +1,39 @@
-import React from 'react'
-import '../css/Knowledge.css'
-
+import React from 'react';
+import '../css/Knowledge.css';
 import KNOWLEDGE from '../data/knowledge.json';
 
 const ListItem = ({ title, author, url, category }) => (
   <li className="list-item">
     { category
       ? <img src={`img/icon/${category}.png`} alt={category} />
-      : <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+      : <i className="fa fa-search-plus fa-2x" aria-hidden="true" />
     }
     <span>
       { url
         ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
-        : title }
+        : title
+      }
       { author ? ` - ${author}` : null }
     </span>
   </li>
-)
+);
 
 const List = ({ data }) => {
-  const listItems = data.map((item) =>
+  const listItems = data.map(item => (
     <ListItem
       key={item.id}
       url={item.url}
       title={item.title}
       author={item.author}
-      category={item.category} />
-  )
+      category={item.category}
+    />
+  ));
   return (
     <ul className="list">
       {listItems}
     </ul>
-  )
-}
+  );
+};
 
 const Knowledge = () => (
   <section className="knowledge section">
@@ -45,6 +46,6 @@ const Knowledge = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default Knowledge
+export default Knowledge;

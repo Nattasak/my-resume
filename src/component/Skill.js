@@ -4,7 +4,7 @@ import '../css/Skill.css';
 import SKILL from '../data/skill.json';
 
 const ListItem = ({ title, level }) => {
-  const className = classNames({ [`fa fa-battery-${level} fa-2x`]: true })
+  const className = classNames({ [`fa fa-battery-${level} fa-2x`]: true });
   return (
     <li className="list-item">
       <i className={className} aria-hidden="true" />
@@ -14,12 +14,13 @@ const ListItem = ({ title, level }) => {
 }
 
 const List = ({ data }) => {
-  const listItems = data.map((item) =>
+  const listItems = data.map(item => (
     <ListItem
       key={item.id}
       title={item.title}
-      level={item.level} />
-  )
+      level={item.level}
+    />
+  ));
   return (
     <ul className="list">
       {listItems}

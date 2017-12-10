@@ -1,33 +1,36 @@
-import React from 'react'
-import '../css/Project.css'
-
-import PROJECT from '../data/project.json'
+import React from 'react';
+import '../css/Project.css';
+import PROJECT from '../data/project.json';
 
 const ListItem = ({ title, url, desc }) => (
   <li className="list-item">
-    <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
-    <a href={url}
+    <i className="fa fa-grav fa-2x" aria-hidden="true" />
+    <a
+      href={url}
       target="_blank"
-      rel="noopener noreferrer">
-      {title}</a>
+      rel="noopener noreferrer"
+    >
+      {title}
+    </a>
     <p>{desc}</p>
   </li>
-)
+);
 
 const List = ({ data }) => {
-  const listItems = data.map((item) =>
+  const listItems = data.map(item => (
     <ListItem
       key={item.id}
       url={item.url}
       title={item.title}
-      desc={item.description} />
-  )
+      desc={item.description}
+    />
+  ));
   return (
     <ul className="list">
       {listItems}
     </ul>
-  )
-}
+  );
+};
 
 const Project = () => (
   <section className="project section">
@@ -40,6 +43,6 @@ const Project = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default Project
+export default Project;
