@@ -4,19 +4,17 @@ import classNames from 'classnames'
 
 import SKILL from '../data/skill.json'
 
-const ListItem = (props) => {
-  let skillLevel = props.level
-  let className = classNames({ [`fa fa-battery-${skillLevel} fa-2x`]: true })
+const ListItem = ({ title, level }) => {
+  let className = classNames({ [`fa fa-battery-${level} fa-2x`]: true })
   return (
     <li className="list-item">
       <i className={className} aria-hidden="true"></i>
-      <span className='title'>{props.title}</span>
+      <span className='title'>{title}</span>
     </li>
   )
 }
 
-const List = (props) => {
-  const data = props.data
+const List = ({ data }) => {
   const listItems = data.map((item) => 
     <ListItem 
       key={item.id}
