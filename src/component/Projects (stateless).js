@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="flex-container">
           <div className="flex-item">
             <ul className="projects-items">
-              {PROJECTS.map(project => 
+              {PROJECTS.map(project =>
                 <li className="projects-item" key={project.id}>
                   <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
                   <a href={project.url}

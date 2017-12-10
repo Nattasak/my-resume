@@ -15,10 +15,10 @@ const ListItem = ({ title, url, desc }) => (
 )
 
 const List = ({ data }) => {
-  const listItems = data.map((item) => 
-    <ListItem 
+  const listItems = data.map((item) =>
+    <ListItem
       key={item.id}
-      url={item.url} 
+      url={item.url}
       title={item.title}
       desc={item.description} />
   )

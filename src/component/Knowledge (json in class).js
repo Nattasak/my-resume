@@ -10,11 +10,11 @@ class Knowledge extends Component {
           <div className="flex-container">
             <div className="flex-item">
               <ul className="skills-items">
-                { KNOWLEDGES.map(knowledge => 
+                { KNOWLEDGES.map(knowledge =>
                   <li className="skills-item" key={knowledge.id}>
                     <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
                     <span>
-                      { knowledge.url 
+                      { knowledge.url
                         ? <a href={knowledge.url} target="_blank" rel="noopener noreferrer">{knowledge.title}</a>
                         : knowledge.title }
                       { knowledge.author ? `${'  -  '}${knowledge.author}` : null }

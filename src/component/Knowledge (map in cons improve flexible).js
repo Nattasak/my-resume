@@ -3,7 +3,7 @@ import '../Styles/Skills.css'
 
 const KnowledgeList = (props) => {
   const knowledges = props.data
-  const listItems = knowledges.map(knowledge => 
+  const listItems = knowledges.map(knowledge =>
     <li className="skills-item" key={knowledge.id}>
       <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
       <span>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../Styles/Skills.css'
 
 const KnowledgeList = () => {
-  const listItems = KNOWLEDGES.map(knowledge => 
+  const listItems = KNOWLEDGES.map(knowledge =>
     <li className="skills-item" key={knowledge.id}>
       <i className="fa fa-search-plus fa-2x" aria-hidden="true"></i>
       <span>

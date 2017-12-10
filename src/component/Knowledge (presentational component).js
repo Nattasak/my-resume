@@ -7,7 +7,7 @@ const List = (props) => {
   }
 
   var link
-  
+
   if (props.children) {
     link = <a href={props.children} target="_blank" rel="noopener noreferrer">{props.title}</a>
   } else {
