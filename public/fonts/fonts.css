@@ -1,0 +1,18 @@
+@font-face{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+	src: url('./Quicksand/Quicksand-Bold.ttf');
+}
+@font-face{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Roboto/Roboto-Medium.ttf');
+}
+@font-face{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./Roboto/Roboto-Black.ttf');
+}
