@@ -21,7 +21,11 @@ const About = ({ name }) => {
           <div className="flex-item">
             <div className="bio">{intro}</div>
             <ul className="list">
-              <ListItem position="Front End" company="BizIdea Digital Marketing" years="1 yr" />
+              <ListItem
+                position="Front End"
+                company="BizIdea Digital Marketing"
+                years="1 yr"
+              />
             </ul>
           </div>
         </div>
