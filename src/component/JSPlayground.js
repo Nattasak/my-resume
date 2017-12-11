@@ -10,8 +10,7 @@ const ListItem = (props) => {
         href={`https://rawgit.com/Nattasak/my-resume/master/public/assets/js-playground/${filename}.html`}
         target="_blank"
         rel="noopener noreferrer"
-      >
-        {props.title}
+      >{props.title}
       </a>
     </li>
   );

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/App.css';
 
-// Component
 import Header from './component/Header';
 import Project from './component/Project';
 import JSPlayground from './component/JSPlayground';
@@ -16,9 +15,9 @@ class App extends Component {
     };
   }
 
-  handleCheckbox = (event) => {
+  handleCheckbox = (e) => {
     this.setState({
-      isDark: event.target.checked
+      isDark: e.target.checked
     });
   }
 

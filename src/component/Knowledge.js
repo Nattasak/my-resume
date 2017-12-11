@@ -28,11 +28,7 @@ const List = ({ data }) => {
       category={item.category}
     />
   ));
-  return (
-    <ul className="list">
-      {listItems}
-    </ul>
-  );
+  return <ul className="list">{listItems}</ul>;
 };
 
 const Knowledge = () => (

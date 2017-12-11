@@ -24,11 +24,11 @@ class Header extends Component {
     this.yournameInput.focus();
   }
 
-  handleInputChange = (event) => {
+  handleInputChange = (e) => {
     this.setState({
-      value: event.target.value
+      value: e.target.value
     });
-  }
+  };
 
   render() {
     return (

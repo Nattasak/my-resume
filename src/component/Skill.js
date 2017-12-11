@@ -10,8 +10,8 @@ const ListItem = ({ title, level }) => {
       <i className={className} aria-hidden="true" />
       <span className="title">{title}</span>
     </li>
-  )
-}
+  );
+};
 
 const List = ({ data }) => {
   const listItems = data.map(item => (
@@ -21,11 +21,7 @@ const List = ({ data }) => {
       level={item.level}
     />
   ));
-  return (
-    <ul className="list">
-      {listItems}
-    </ul>
-  );
+  return <ul className="list">{listItems}</ul>;
 };
 
 const Skill = () => (
