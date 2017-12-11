@@ -7,6 +7,9 @@ import JSPlayground from './component/JSPlayground';
 import Skill from './component/Skill';
 import Knowledge from './component/Knowledge';
 
+// import Link from './component/Link/Link';
+// import Checkbox from './component/Form/Checkbox';
+
 class App extends Component {
   constructor(props) {
     super(props);

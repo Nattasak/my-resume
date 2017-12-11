@@ -2,8 +2,6 @@ import React, { Component, Fragment } from 'react';
 import '../css/Header.css';
 import About from './About';
 
-const myName = 'Nattasak Lertpoompunya';
-
 const ListItem = props => (
   <li className="list-item">
     <a href={props.url} target="_blank" rel="noopener noreferrer">
@@ -21,7 +19,7 @@ class Header extends Component {
   }
 
   componentDidMount() {
-    this.yournameInput.focus();
+    this.inputName.focus();
   }
 
   handleInputChange = (e) => {
@@ -31,6 +29,8 @@ class Header extends Component {
   };
 
   render() {
+    const myName = 'Nattasak Lertpoompunya';
+
     return (
       <Fragment>
         <header className="header section">
@@ -43,7 +43,7 @@ class Header extends Component {
                     <label>What’s your name ?</label>
                     <br />
                     <input
-                      ref={(input) => { this.yournameInput = input; }}
+                      ref={(input) => { this.inputName = input; }}
                       onChange={this.handleInputChange}
                       maxLength="15"
                     />
