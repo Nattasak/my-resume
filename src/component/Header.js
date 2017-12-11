@@ -36,7 +36,7 @@ class Header extends Component {
               <ul className="list">
                 <li className="list-item say-hi">
                   <div className="sayhi">
-                    <label>What's your name ?</label>
+                    <label>What’s your name ?</label>
                     <br />
                     <input autoFocus onChange={this.handleInputChange} maxLength="15" />
                   </div>
