@@ -1,22 +1,18 @@
 .skill {
 
-  .list {
+  ul {
     list-style: none;
     margin: 0;
-    padding: 0 0 0 51px;
+    padding: 0 0 0 60px;
 
-    .list-item {
+    & > li {
       position: relative;
       margin-bottom: 22px;
 
-      i {
+      & > i {
         position: absolute;
-        left: -50px;
+        left: -59px;
         top: -2px;
-      }
-
-      .title {
-        margin-left: 10px;
       }
     }
   }

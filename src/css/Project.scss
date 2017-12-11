@@ -1,21 +1,21 @@
 .project {
 
-  .list {
+  ul {
     list-style: none;
     margin: 0;
     padding: 0 0 0 51px;
 
-    .list-item {
+    & > li {
       position: relative;
       margin-bottom: 25px;
 
-      i {
+      & > i {
         position: absolute;
         left: -50px;
         top: 0;
       }
 
-      p {
+      & > p {
         margin: 0;
       }
     }

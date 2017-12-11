@@ -3,7 +3,7 @@ import '../css/Project.css';
 import PROJECT from '../data/project.json';
 
 const ListItem = ({ title, url, desc }) => (
-  <li className="list-item">
+  <li>
     <i className="fa fa-grav fa-2x" aria-hidden="true" />
     <a href={url} target="_blank" rel="noopener noreferrer">
       {title}
@@ -21,7 +21,7 @@ const List = ({ data }) => {
       desc={item.description}
     />
   ));
-  return <ul className="list">{listItems}</ul>;
+  return <ul>{listItems}</ul>;
 };
 
 const Project = () => (

@@ -1,13 +1,13 @@
-.project .list {
+.project ul {
   list-style: none;
   margin: 0;
   padding: 0 0 0 51px; }
-  .project .list .list-item {
+  .project ul > li {
     position: relative;
     margin-bottom: 25px; }
-    .project .list .list-item i {
+    .project ul > li > i {
       position: absolute;
       left: -50px;
       top: 0; }
-    .project .list .list-item p {
+    .project ul > li > p {
       margin: 0; }

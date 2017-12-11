@@ -6,9 +6,9 @@ import SKILL from '../data/skill.json';
 const ListItem = ({ title, level }) => {
   const className = classNames({ [`fa fa-battery-${level} fa-2x`]: true });
   return (
-    <li className="list-item">
+    <li>
       <i className={className} aria-hidden="true" />
-      <span className="title">{title}</span>
+      <span>{title}</span>
     </li>
   );
 };
@@ -21,7 +21,7 @@ const List = ({ data }) => {
       level={item.level}
     />
   ));
-  return <ul className="list">{listItems}</ul>;
+  return <ul>{listItems}</ul>;
 };
 
 const Skill = () => (

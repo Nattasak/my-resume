@@ -1,11 +1,11 @@
-.jsplayground .list {
+.jsplayground ul {
   list-style: none;
   margin: 0;
   padding: 0 0 0 51px; }
-  .jsplayground .list .list-item {
+  .jsplayground ul > li {
     position: relative;
     margin-bottom: 25px; }
-    .jsplayground .list .list-item i {
+    .jsplayground ul > li > i {
       position: absolute;
       left: -50px;
       top: -3px; }

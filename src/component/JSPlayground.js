@@ -4,7 +4,7 @@ import '../css/JSPlayground.css';
 const ListItem = (props) => {
   const filename = props.title.replace(/\s+/g, '-');
   return (
-    <li className="list-item">
+    <li>
       <i className="fa fa-code fa-2x" aria-hidden="true" />
       <a
         href={`https://rawgit.com/Nattasak/my-resume/master/public/assets/js-playground/${filename}.html`}
@@ -22,7 +22,7 @@ const JSPlayground = () => (
       <h3 className="section-title">JS Playground</h3>
       <div className="flex-container">
         <div className="flex-item">
-          <ul className="list">
+          <ul>
             <ListItem title="Random Quotes" />
             <ListItem title="Pyramid Builder" />
             <ListItem title="Grade Calculator" />
