@@ -20,6 +20,10 @@ class Header extends Component {
     };
   }
 
+  componentDidMount() {
+    this.yournameInput.focus();
+  }
+
   handleInputChange = (event) => {
     this.setState({
       value: event.target.value
@@ -38,7 +42,11 @@ class Header extends Component {
                   <div className="sayhi">
                     <label>What’s your name ?</label>
                     <br />
-                    <input autoFocus onChange={this.handleInputChange} maxLength="15" />
+                    <input
+                      ref={(input) => { this.yournameInput = input; }}
+                      onChange={this.handleInputChange}
+                      maxLength="15"
+                    />
                   </div>
                 </li>
                 <ListItem url="https://github.com/Nattasak" icon="github" />
