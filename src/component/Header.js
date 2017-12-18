@@ -11,22 +11,15 @@ const ListItem = props => (
 );
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: ''
-    };
-  }
+  state = { value: '' };
 
   componentDidMount() {
     this.inputName.focus();
   }
 
   handleInputChange = (e) => {
-    this.setState({
-      value: e.target.value
-    });
-  };
+    this.setState({ value: e.target.value });
+  }
 
   render() {
     const myName = 'Nattasak Lertpoompunya';
