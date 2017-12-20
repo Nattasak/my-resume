@@ -1,11 +1,12 @@
 [
   { "id": 1, "title": "HTML / CSS", "level": "full" },
   { "id": 2, "title": "CSS Preprocessor (SASS / LESS)", "level": "full" },
-  { "id": 3, "title": "CSS Framework (Bootstrap / Bulma)", "level": "full" },
+  { "id": 3, "title": "CSS Framework (Bulma / Bootstrap / Semantic UI)", "level": "full" },
   { "id": 4, "title": "JavaScript / TypeScript", "level": "half" },
   { "id": 5, "title": "React (CRA / Next.js)", "level": "half" },
   { "id": 6, "title": "Angular (Angular CLI)", "level": "half" },
-  { "id": 7, "title": "Node.js (Express)", "level": "quarter" },
-  { "id": 8, "title": "Document-oriented database (MongoDB)", "level": "quarter" },
-  { "id": 9, "title": "Version Control (GIT)", "level": "full" }
+  { "id": 7, "title": "Node.js (Express / Hapi / Koa)", "level": "quarter" },
+  { "id": 8, "title": "API (REST / GraphQL)", "level": "quarter" },
+  { "id": 9, "title": "Document-oriented database (MongoDB)", "level": "quarter" },
+  { "id": 10, "title": "Version Control (GIT)", "level": "full" }
 ]
