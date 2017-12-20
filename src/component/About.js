@@ -12,7 +12,7 @@ const About = ({ name }) => {
   const intro = `
     Hi ${name ? `${name}${' !  '}Nice to meet you : )` : '!'}
     ${'  '}My name is Nat. I’m 27 years old living in Bangkok, Thailand.
-    I am interested in JavaScript${'  /  '}React${'  /  '}Architecture and Algorithm.
+    I am interested in JavaScript, Architecture and Algorithm.
   `;
   return (
     <section className="about section">
