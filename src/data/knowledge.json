@@ -1,65 +1,121 @@
 [
   {
     "id": 1,
-    "category": "",
-    "title": "HTTP",
-    "author": "",
-    "url": ""
-  },
-  {
-    "id": 2,
-    "category": "",
-    "title": "DOM handling",
-    "author": "",
-    "url": ""
-  },
-  {
-    "id": 3,
-    "category": "",
-    "title": "What is an API?",
-    "author": "MuleSoft",
-    "url": "https://www.youtube.com/watch?v=s7wmiS2mSXY"
-  },
-  {
-    "id": 4,
     "category": "js",
     "title": "Exploring ES6",
     "author": "Dr. Axel Rauschmayer",
     "url": "http://exploringjs.com/es6/index.html"
   },
   {
-    "id": 5,
+    "id": 2,
     "category": "js",
     "title": "Airbnb JavaScript Style Guide",
     "author": "Airbnb",
     "url": "https://github.com/airbnb/javascript"
   },
   {
-    "id": 6,
+    "id": 3,
     "category": "js",
     "title": "Functional Programming Basics In ES6",
     "author": "Jeremy Fairbank",
     "url": "https://www.youtube.com/watch?v=FYXpOjwYzcs"
   },
   {
-    "id": 7,
+    "id": 4,
     "category": "js",
     "title": "What the heck is the event loop anyway?",
     "author": "Philip Roberts",
     "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
   },
   {
-    "id": 8,
+    "id": 50,
     "category": "react",
     "title": "Presentational and Container Components",
     "author": "Dan Abramov",
     "url": "https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0"
   },
   {
-    "id": 9,
+    "id": 51,
     "category": "react",
     "title": "Clean Code vs. Dirty Code",
     "author": "Donavon West",
     "url": "http://americanexpress.io/clean-code-dirty-code"
+  },
+  {
+    "id": 52,
+    "category": "react",
+    "title": "Callback functions in React",
+    "author": "Jason Arnold",
+    "url": "https://medium.com/@thejasonfile/callback-functions-in-react-e822ebede766"
+  },
+  {
+    "id": 53,
+    "category": "react",
+    "title": "Our Best Practices for Writing React Components",
+    "author": "Scott Domes",
+    "url": "https://engineering.musefind.com/our-best-practices-for-writing-react-components-dec3eb5c3fc8"
+  },
+  {
+    "id": 150,
+    "category": "redux",
+    "title": "learning Redux in 2018",
+    "author": "Valentino Gagliardi",
+    "url": "https://www.codementor.io/valentino/react-redux-tutorial-for-beginners-learning-redux-in-2018-fek71ojgh"
+  },
+  {
+    "id": 500,
+    "category": "",
+    "title": "What is an API?",
+    "author": "MuleSoft",
+    "url": "https://www.youtube.com/watch?v=s7wmiS2mSXY"
+  },
+  {
+    "id": 800,
+    "category": "algorithm",
+    "title": "What's an algorithm ?",
+    "author": "David J. Malan",
+    "url": "https://www.youtube.com/watch?v=6hfOvs8pY1k"
+  },
+  {
+    "id": 801,
+    "category": "algorithm",
+    "title": "What is an algorithm and why should you care ?",
+    "author": "Khan Academy",
+    "url": "https://www.youtube.com/watch?v=CvSOaYi89B4"
+  },
+  {
+    "id": 802,
+    "category": "algorithm",
+    "title": "How to Explain Algorithms to Kids",
+    "author": "Tynker",
+    "url": "https://www.tynker.com/blog/articles/ideas-and-tips/how-to-explain-algorithms-to-kids/"
+  },
+  {
+    "id": 803,
+    "category": "algorithm",
+    "title": "Understanding the Basic Algorithms that Power Your Digital Life",
+    "author": "Tynker",
+    "url": "https://www.tynker.com/blog/articles/ideas-and-tips/understanding-the-basic-algorithms-that-power-your-digital-life/"
+  },
+  {
+    "id": 804,
+    "category": "algorithm",
+    "title": "Algorithms, Data Structures, and Design Patterns",
+    "author": "Antonin Januska",
+    "url": "https://antjanus.com/blog/web-development-tutorials/learn-the-unlearned-algorithms-data-structures-and-design-patterns/"
+  },
+  {
+    "id": 1200,
+    "category": "security",
+    "title": "Can you help me understand what a cryptographic “salt” is?",
+    "author": "MartinSuecia and otus",
+    "url": "https://crypto.stackexchange.com/questions/1776/can-you-help-me-understand-what-a-cryptographic-salt-is"
+  },
+  {
+    "id": 1201,
+    "category": "security",
+    "title": "Salted Password Hashing - Doing it Right",
+    "author": "Defuse Security",
+    "url": "https://crackstation.net/hashing-security.htm"
   }
 ]

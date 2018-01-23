@@ -1,6 +1,8 @@
 import React from 'react';
-import '../css/JSPlayground.css';
+
 import JSPLAYGROUND from '../data/jsplayground.json';
+
+import '../css/JSPlayground.css';
 
 const ListItem = ({ title }) => {
   const filename = title.replace(/\s+/g, '-');

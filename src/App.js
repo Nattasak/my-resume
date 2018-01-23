@@ -2,23 +2,23 @@ import React, { Component } from 'react';
 import './css/App.css';
 
 import Header from './component/Header';
-import Project from './component/Project';
 import JSPlayground from './component/JSPlayground';
-import Skill from './component/Skill';
 import Knowledge from './component/Knowledge';
+import Project from './component/Project';
+import Skill from './component/Skill';
 
 class App extends Component {
   state = { isDark: true };
 
   handleCheckbox = (e) => {
-    this.setState({
-      isDark: e.target.checked
-    });
+    this.setState({ isDark: e.target.checked });
   }
 
   render() {
+    const { isDark } = this.state;
+
     return (
-      <div className={`App ${this.state.isDark ? 'dark' : 'light'}`}>
+      <div className={`App ${isDark ? 'dark' : 'light'}`}>
         <div className="container">
           <div className="theme">
             <label>
@@ -26,16 +26,16 @@ class App extends Component {
               <input
                 name="isDark"
                 type="checkbox"
-                checked={this.state.isDark}
+                checked={isDark}
                 onChange={this.handleCheckbox}
               />
             </label>
           </div>
           <Header />
+          <Knowledge />
           <Project />
           <JSPlayground />
           <Skill />
-          <Knowledge />
         </div>
       </div>
     );

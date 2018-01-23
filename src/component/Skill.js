@@ -1,7 +1,9 @@
-import classNames from 'classnames';
 import React from 'react';
-import '../css/Skill.css';
+import classNames from 'classnames';
+
 import SKILL from '../data/skill.json';
+
+import '../css/Skill.css';
 
 const ListItem = ({ title, level }) => {
   const className = classNames({ [`fa fa-battery-${level} fa-2x`]: true });

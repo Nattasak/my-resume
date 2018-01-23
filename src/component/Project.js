@@ -1,6 +1,8 @@
 import React from 'react';
-import '../css/Project.css';
+
 import PROJECT from '../data/project.json';
+
+import '../css/Project.css';
 
 const ListItem = ({ title, url, desc }) => (
   <li>

@@ -1,6 +1,8 @@
 import React from 'react';
-import '../css/Knowledge.css';
+
 import KNOWLEDGE from '../data/knowledge.json';
+
+import '../css/Knowledge.css';
 
 const ListItem = ({ title, author, url, category }) => (
   <li className="list-item">

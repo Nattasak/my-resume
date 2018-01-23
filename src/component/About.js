@@ -1,4 +1,5 @@
 import React from 'react';
+
 import '../css/About.css';
 
 const ListItem = props => (
@@ -23,7 +24,7 @@ const About = ({ name }) => {
             <ul className="list">
               <ListItem
                 position="Front End"
-                company="BizIdea Digital Marketing"
+                company="Ultimate Digital Service"
                 years="1 yr"
               />
             </ul>

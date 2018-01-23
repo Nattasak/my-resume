@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
-import '../css/Header.css';
+
 import About from './About';
+
+import '../css/Header.css';
 
 const ListItem = props => (
   <li className="list-item">
@@ -17,7 +19,7 @@ class Header extends Component {
     this.inputName.focus();
   }
 
-  handleInputChange = (e) => {
+  handleChange = (e) => {
     this.setState({ value: e.target.value });
   }
 
@@ -37,7 +39,7 @@ class Header extends Component {
                     <br />
                     <input
                       ref={(input) => { this.inputName = input; }}
-                      onChange={this.handleInputChange}
+                      onChange={this.handleChange}
                       maxLength="15"
                     />
                   </div>

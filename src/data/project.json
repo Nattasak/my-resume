@@ -16,5 +16,11 @@
     "title": "Todo Winter",
     "description": "React 16 + Redux + LocalStorage",
     "url": "https://nattasak.github.io/job-quest-winter-2017"
+  },
+  {
+    "id": 4,
+    "title": "Snippet Manager",
+    "description": "Useful snippet for everyone",
+    "url": "https://ball6847.github.io/simple-snippet-manager/"
   }
 ]
