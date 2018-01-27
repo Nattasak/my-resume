@@ -63,6 +63,27 @@
     "url": "https://www.codementor.io/valentino/react-redux-tutorial-for-beginners-learning-redux-in-2018-fek71ojgh"
   },
   {
+    "id": 151,
+    "category": "redux",
+    "title": "My journey toward a maintainable project structure for React/Redux",
+    "author": "Matteo Mazzarolo",
+    "url": "https://hackernoon.com/my-journey-toward-a-maintainable-project-structure-for-react-redux-b05dfd999b5"
+  },
+  {
+    "id": 152,
+    "category": "redux",
+    "title": "Getting started with create-react-app, Redux, React Router & Redux Thunk",
+    "author": "Jamie Barton",
+    "url": "https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f"
+  },
+  {
+    "id": 153,
+    "category": "redux",
+    "title": "Implementing redux and react-router v4 in your react app",
+    "author": "Manoj",
+    "url": "http://manojsinghnegi.com/blog/2017/09/03/Implementing-redux-and-react-router-v4-in-your-react-app/"
+  },
+  {
     "id": 500,
     "category": "",
     "title": "What is an API?",
