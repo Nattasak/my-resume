@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import PROJECT from '../data/project.json';
+import PROJECT from "../data/project.json";
 
-import '../css/Project.css';
+import "../css/Project.css";
 
 const ListItem = ({ title, url, desc }) => (
   <li>
@@ -15,15 +15,10 @@ const ListItem = ({ title, url, desc }) => (
 );
 
 const List = ({ data }) => {
-  const listItems = data.map(item => (
-    <ListItem
-      key={item.id}
-      url={item.url}
-      title={item.title}
-      desc={item.description}
-    />
+  const listProjects = data.map((p, i) => (
+    <ListItem key={i} url={p.url} title={p.title} desc={p.description} />
   ));
-  return <ul>{listItems}</ul>;
+  return <ul>{listProjects}</ul>;
 };
 
 const Project = () => (

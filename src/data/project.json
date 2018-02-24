@@ -1,26 +1,27 @@
 [
   {
-    "id": 1,
+    "title": "ชมรมกัลยาณธรรม - Dhamma books",
+    "description": "รวบรวมหนังสือดีๆ จากชมรมกัลยาณธรรม",
+    "url": "https://nattasak.github.io/kanlayanatam-books/"
+  },
+  {
+    "title": "Dev NEED to Know",
+    "description": "รวบรวมความรู้ดีๆ สำหรับ dev.",
+    "url": "https://nattasak.github.io/dev-need-to-know/"
+  },
+  {
     "title": "Anime Splash",
     "description": "Angular 5 + Bootstrap + HttpClient",
     "url": "https://nattasak.github.io/anime-splash"
   },
   {
-    "id": 2,
     "title": "Bulma Axios",
     "description": "React 16 + React router + Bulma + Axios",
     "url": "https://nattasak.github.io/bulma-axios"
   },
   {
-    "id": 3,
     "title": "Todo Winter",
     "description": "React 16 + Redux + LocalStorage",
     "url": "https://nattasak.github.io/job-quest-winter-2017"
-  },
-  {
-    "id": 4,
-    "title": "Snippet Manager",
-    "description": "Useful snippet for everyone",
-    "url": "https://ball6847.github.io/simple-snippet-manager/"
   }
 ]
