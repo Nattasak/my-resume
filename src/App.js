@@ -3,9 +3,9 @@ import './css/App.css';
 
 import Header from './component/Header';
 import JSPlayground from './component/JSPlayground';
-import Knowledge from './component/Knowledge';
+// import Knowledge from './component/Knowledge';
 import Project from './component/Project';
-import Skill from './component/Skill';
+// import Skill from './component/Skill';
 
 class App extends Component {
   state = { isDark: true };
@@ -32,10 +32,10 @@ class App extends Component {
             </label>
           </div>
           <Header />
-          <Knowledge />
+          {/* <Knowledge /> */}
           <Project />
           <JSPlayground />
-          <Skill />
+          {/* <Skill /> */}
         </div>
       </div>
     );
